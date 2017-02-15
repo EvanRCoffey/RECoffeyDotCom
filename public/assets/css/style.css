@@ -1,0 +1,75 @@
+html { 
+	background: url(../images/bg2.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	font-family: 'Arsenal', sans-serif;
+  	color: lightyellow;
+}
+
+.navBarLinkRight {
+	font-size: large;
+	color: lightyellow;
+	margin-right: 20px;
+	float: right;
+}
+
+.navBarLinkLeft {
+	font-size: large;
+	color: lightyellow;
+	margin-left: 20px;
+}
+
+.connectIcons {
+	margin: 15px;
+}
+
+.normalLink {
+	font-size: large;
+	color: lightyellow;
+}
+
+.homePageText {
+	display: none;
+	text-align: center;
+	font-size: xx-large;
+	margin-top: 40px;
+	color: lightyellow;
+}
+
+#header {
+	padding: 15px;
+	font-size: large;
+	color: lightyellow;
+	text-align: left;
+	height: 25px;
+}
+
+#mainSection {
+	display: none;
+	text-align: center;
+	font-size: large;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
+}
+
+#footer {
+   	position:fixed;
+   	left:0px;
+   	bottom:0px;
+   	height:40px;
+   	width:96%;
+   	padding: 15px;
+	font-size: large;
+	color: lightyellow;
+	text-align: left;
+	margin-left: 20px;
+}
+
+#footerFloatRight {
+	font-size: large;
+	color: lightyellow;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Evan's website - Home</title>
+	<!--Google Font-->
+	<link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">	
+	<!--CSS Reset file-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!--External CSS file-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!--jQuery link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+
+<!--Header, with links to bio, portfolio, and contact-->
+<div id="header" style="display: none">
+	<a href="contact.html" class="navBarLinkRight">Contact</a>
+	<a href="portfolio.html" class="navBarLinkRight">Portfolio</a>
+	<a href="bio.html" class="navBarLinkRight">Bio</a>
+</div>
+
+<!--Text slowly fades into the page-->
+<div class="homePageText" id="homePageText1" style="margin-top: 95px">Well, hello there</div>
+<div class="homePageText" id="homePageText2">Don't you look nice</div>
+<div class="homePageText" id="homePageText3">And you smell great, too</div>
+<div class="homePageText" id="homePageText4">Oh, hey, there's a header</div>
+<div class="homePageText" id="homePageText5">Oh, wow, a footer too</div>
+<div class="homePageText" id="homePageText6">Maybe you should click one of those links up there</div>
+
+<!--Footer, with random complement-->
+<div id="footer" style="display: none">
+	<div id="footerFloatRight"></div>
+</div>
+
+<!--Code for delayed fading in of page material-->
+<script type="text/javascript">
+	//Feel free to add more complements
+	var complementBank = ["I like your shoes","I love your outfit","Your hair looks great today","You smell wonderful","You are an inspiration","You look like a winner","You're just the best","You're so clever","Seriously, you're awesome","You are truly an impressive person","Keep up the good work, champ","You should be proud of yourself","Tone it down some, you're making everyone else look bad","Nice butt"];
+	//Returns a random complement from complementBank[]
+	function randomComplement() {
+		var randomNum = Math.floor(Math.random() * complementBank.length);
+		return complementBank[randomNum];
+	}
+	$( document ).ready(function() {
+		var complement = randomComplement();
+		$( "#footerFloatRight" ).html(complement);
+	    setTimeout( function(){ 
+		    $( "#homePageText1" ).fadeIn(2000);} , 
+		    500 );
+	    setTimeout( function(){ 
+		    $( "#homePageText2" ).fadeIn(2000);}, 
+		    2500 );
+	    setTimeout( function(){ 
+		    $( "#homePageText3" ).fadeIn(2000);}, 
+		    4500 );
+	    setTimeout( function(){ 
+	    	document.getElementById("homePageText1").style.marginTop = "40px";
+		    $( "#homePageText4" ).fadeIn(2000);}, 
+		    6500 );
+	    setTimeout( function(){ 
+		    $( "#header" ).fadeIn(2000);}, 
+		    6500 );
+	    setTimeout( function(){ 
+		    $( "#homePageText5" ).fadeIn(2000);}, 
+		    8500 );
+	    setTimeout( function(){ 
+		    $( "#footer" ).fadeIn(2000);}, 
+		    8500 );
+	    setTimeout( function(){ 
+		    $( "#homePageText6" ).fadeIn(2000);}, 
+		    10500 );
+	});	
+</script>
+
+</body>
+</html>

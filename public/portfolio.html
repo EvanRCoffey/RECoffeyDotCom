@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Evan's website - Portfolio</title>
+	<!--Google Font-->
+	<link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
+	<!--CSS Reset file-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!--External CSS file-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!--jQuery link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+	
+<!--Header, with links to bio, portfolio, and contact-->
+<div id="header">
+	<a href="contact.html" class="navBarLinkRight">Contact</a>
+	<a href="portfolio.html" class="navBarLinkRight" style="color:khaki">Portfolio</a>
+	<a href="bio.html" class="navBarLinkRight">Bio</a>
+</div>
+
+<!--Main page content-->
+<div id="mainSection">
+	<br><br>
+	<img src="assets/images/portfolio1.jpg" height="300px" width="auto">
+	<br><br>
+	<p>Here's a website I built for my wife, a Montessori guide teaching here in Austin, TX:</p>
+	<a href="https://blooming-retreat-52711.herokuapp.com/" class="normalLink" target="_blank">Confessions of a Montessori Guide</a>
+	<br><br>
+	<p>Here is my first group project from The Coding Boot Camp at UT Austin</p>
+	<a href="https://ancient-crag-50240.herokuapp.com/" class="normalLink" target="_blank">Find something fun to do near you</a>
+	<br><br>
+	<p>And here are a few of our homework assignments so far</p>
+	<a href="https://fierce-tundra-47268.herokuapp.com/" class="normalLink" target="_blank">Sci-Fi Movie Trivia</a>
+	<a style="margin-left: 20px" href="https://salty-tundra-16392.herokuapp.com/" class="normalLink" target="_blank">Star Wars "RPG"</a><br>
+	<a style="margin-left: 20px" href="https://evening-reef-27591.herokuapp.com/" class="normalLink" target="_blank">Classical Composer Hangman (not mobile-friendly)</a>
+</div>
+
+<!--Footer, with current page and random complement-->
+<div id="footer" style="display: none">
+	<div id="footerFloatRight"></div>
+</div>
+
+<!--Code for delayed fading in of page material-->
+<script type="text/javascript">
+	//Feel free to add more complements
+	var complementBank = ["I like your shoes","I love your outfit","Your hair looks great today","You smell wonderful","You are an inspiration","You look like a winner","You're just the best","You're so clever","Seriously, you're awesome","You are truly an impressive person","Keep up the good work, champ","You should be proud of yourself","Tone it down some, you're making everyone else look bad","Nice butt"];
+	//Returns a random complement from complementBank[]
+	function randomComplement() {
+		var randomNum = Math.floor(Math.random() * complementBank.length);
+		return complementBank[randomNum];
+	}
+	$( document ).ready(function() {
+		$( "#mainSection" ).fadeIn(2000);
+	});	
+	$( document ).ready(function() {
+		var complement = randomComplement();
+		$( "#footerFloatRight" ).html(complement);
+		$( "#footer" ).fadeIn(2000);
+	});	
+</script>
+
+</body>
+</html>

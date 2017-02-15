@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Evan's website - Contact</title>
+	<!--Google Font-->
+	<link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
+	<!--CSS Reset file-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!--External CSS file-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!--jQuery link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+	
+<!--Header, with links to bio, portfolio, and contact-->
+<div id="header">
+	<a href="contact.html" class="navBarLinkRight" style="color:khaki">Contact</a>
+	<a href="portfolio.html" class="navBarLinkRight">Portfolio</a>
+	<a href="bio.html" class="navBarLinkRight">Bio</a>
+</div>
+
+<!--Main page content-->
+<div id="mainSection">
+	<br><br>
+	<img src="assets/images/contact1.jpg" height="300px" width="auto">
+	<br><br><br><br>
+	<a class="connectIcons" href="https://www.linkedin.com/in/evan-coffey-6288227b" target="_blank"><img src="assets/images/socialMediaIcons/linkedin.png" align="middle" height="75px" width="auto" alt="LinkedIn"></a>
+	<a class="connectIcons" href="https://github.com/REvanCof" target="_blank"><img src="assets/images/socialMediaIcons/github.png" align="middle" height="75px" width="auto" alt="Github"></a>
+	<a class="connectIcons" href="https://twitter.com/REvanCof" target="_blank"><img src="assets/images/socialMediaIcons/twitter.png" align="middle" height="75px" width="auto" alt="Twitter"></a>
+	<a class="connectIcons" href="https://www.facebook.com/evan.coffey.5" target="_blank"><img src="assets/images/socialMediaIcons/facebook.png" align="middle" height="75px" width="auto" alt="Facebook"></a>
+	<br><br>
+	<p>Email - RogerECoffey@gmail.com</p>
+	<br>
+	<p>Cell - 228-326-7112 (text or call)</p>
+</div>
+
+<!--Footer, with current page and random complement-->
+<div id="footer" style="display: none">
+	<div id="footerFloatRight"></div>
+</div>
+
+<!--Code for delayed fading in of page material-->
+<script type="text/javascript">
+	//Feel free to add more complements
+	var complementBank = ["I like your shoes","I love your outfit","Your hair looks great today","You smell wonderful","You are an inspiration","You look like a winner","You're just the best","You're so clever","Seriously, you're awesome","You are truly an impressive person","Keep up the good work, champ","You should be proud of yourself","Tone it down some, you're making everyone else look bad","Nice butt"];
+	//Returns a random complement from complementBank[]
+	function randomComplement() {
+		var randomNum = Math.floor(Math.random() * complementBank.length);
+		return complementBank[randomNum];
+	}
+	$( document ).ready(function() {
+		$( "#mainSection" ).fadeIn(2000);
+	});	
+	$( document ).ready(function() {
+		var complement = randomComplement();
+		$( "#footerFloatRight" ).html(complement);
+		$( "#footer" ).fadeIn(2000);
+	});	
+</script>
+
+</body>
+</html>
