@@ -1,1 +1,11 @@
 this site is currently using goDaddy.  use FileZilla FTP to update the site.
+
+
+
+password - P4czy2nd1!  (also on lastpass)
+
+
+
+try to only update the files/folders that you change.  if you lose track, it should always be okay to delete the whole thing and reupload it.  DO NOT put the entire "RECoffeyDotCom" folder on the server.  put that folder's contents on the server.
+
+also, be aware that your images are referencing the github repo, so if anything on there changes, it will affect the site.
