@@ -16,7 +16,7 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 // This line is needed to link your CSS
-app.use(express.static(process.cwd() + "/public"));
+app.use(express.static(process.cwd() + "/public_html"));
 
 
 // Import routes and give the server access to them.
