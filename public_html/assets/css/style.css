@@ -68,6 +68,19 @@ html {
 	margin-left: 20px;
 }
 
+#footerIndex {
+	position: fixed;
+   	left:0px;
+   	bottom:0px;
+   	height:40px;
+   	width:96%;
+   	padding: 15px;
+	font-size: large;
+	color: lightyellow;
+	text-align: left;
+	margin-left: 20px;
+}
+
 #footerFloatRight {
 	font-size: large;
 	color: lightyellow;
