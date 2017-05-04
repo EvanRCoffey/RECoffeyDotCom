@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Evan's website - Blog Entry</title>
+	<!--Google Font-->
+	<link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
+	<!--CSS Reset file-->
+	<link rel="stylesheet" type="text/css" href="../../assets/css/reset.css">
+	<!--External CSS file-->
+	<link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+	<!--jQuery link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+
+<!--Header, with links to bio, blog, portfolio, and contact-->
+<div id="header">
+	<a href="../../contact.html" class="navBarLinkRight" >Contact</a>
+	<a href="../../portfolio.html" class="navBarLinkRight">Portfolio</a>
+	<a href="../../blogCurrentEntry.html" class="navBarLinkRight" style="color:khaki">Blog</a>
+	<a href="../../bio.html" class="navBarLinkRight">Bio</a>
+</div>
+
+<!--Main page content-->
+<div id="mainSection">
+
+<a href="../Entry26/blogEntry.html" class="normalLink">Past</a>
+<a href="../../blogList.html" class="normalLink">Blog list</a>
+<a href="../Entry28/blogEntry.html" class="normalLink">Future</a>
+<br /><br />
+
+Hello again from <strike>pollen-covered</strike> sunny Austin, TX. &nbsp;Spring is here, and thank goodness for that! &nbsp;I'm ready for shorts weather.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-68-w6IaOCg4/WMWiqXREe2I/AAAAAAAAAVY/QuTQlZitus8pYDtklqaL3eTfNvnxIqO2QCLcB/s1600/c7c65aea2b953aa8aa2166dc00fefcd9.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="255" src="https://3.bp.blogspot.com/-68-w6IaOCg4/WMWiqXREe2I/AAAAAAAAAVY/QuTQlZitus8pYDtklqaL3eTfNvnxIqO2QCLcB/s320/c7c65aea2b953aa8aa2166dc00fefcd9.jpg" width="320" /></a></div>
+<br />
+<br />
+Life since my last update has been filled with code - lots and lots of code. &nbsp;For a few weeks, my time was divided between boot camp homework assignments, mine and my wife's websites, and learning some tricky new back-end concepts. &nbsp;Then, about 3 weeks ago, I started work on a website that my coding buddy and I ended up using for this weekend's group project assignment. &nbsp;It's a restaurant server/bartender companion that helps with organizing finances, studying menus, and managing goals. &nbsp;I had the idea a little over a year ago; originally, I planned to write it as an offline app, but I think it is much more useful as an internet-based app. &nbsp;It's still in a beta test, so I don't yet want to publicize the domain name. &nbsp;However, it's nearly done. &nbsp;Just a few bugs needs fixing before it's ready to be used by the public. &nbsp;I'm proud of the work we've done on it, and I can't wait until it's ready to show off.<br />
+<br />
+With the near completion of this project, plus the impending completion of the boot camp, I am engaged full-throttle in the hunt for a full-time web developer job. &nbsp;I do indeed feel ready to write salary-worthy code, so I'm not waiting until the end of the program to apply; I'm starting now. &nbsp;My plan is to advertise for freelance work while looking for a full-time job in or near Austin. &nbsp;If I get a job, I'll remove the advertisements. &nbsp;If I get what I feel is a full-time schedule's worth of freelance opportunities, I'll pull back on applying for jobs. &nbsp;Either way, after the last few months and, especially, these last few weeks, I feel prepared to take on a wide range of programming tasks.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-daJ6lxzSZw0/WMWjymF91BI/AAAAAAAAAVg/Ym__TtpGQ98FZJEm15LBVsl2mQ98Rc_zgCLcB/s1600/giphy.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-daJ6lxzSZw0/WMWjymF91BI/AAAAAAAAAVg/Ym__TtpGQ98FZJEm15LBVsl2mQ98Rc_zgCLcB/s200/giphy.gif" width="200" /></a></div>
+<br />
+I'll check back in again when I get news. &nbsp;Hopefully, it'll be good news :)<br />
+<br />
+<div style="text-align: right;">
+<i><span style="font-size: xx-small;">...still dreaming</span></i></div>
+
+
+</div>
+
+<!--Footer, with current page and random complement-->
+<div id="footer" style="display: none">
+	<div id="footerFloatRight"></div>
+</div>
+
+<!--Code for delayed fading in of page material-->
+<script type="text/javascript">
+	//Feel free to add more complements
+	var complementBank = ["I like your shoes","I love your outfit","Your hair looks great today","You smell wonderful","You are an inspiration","You look like a winner","You're just the best","You're so clever","Seriously, you're awesome","You are truly an impressive person","Keep up the good work, champ","You should be proud of yourself","Tone it down some, you're making everyone else look bad","Nice butt"];
+	//Returns a random complement from complementBank[]
+	function randomComplement() {
+		var randomNum = Math.floor(Math.random() * complementBank.length);
+		return complementBank[randomNum];
+	}
+	$( document ).ready(function() {
+		$( "#mainSection" ).fadeIn(2000);
+	});
+	$( document ).ready(function() {
+		var complement = randomComplement();
+		$( "#footerFloatRight" ).html(complement);
+		$( "#footer" ).fadeIn(2000);
+	});	
+</script>
+
+</body>
+</html>

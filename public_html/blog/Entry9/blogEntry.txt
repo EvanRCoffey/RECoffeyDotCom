@@ -1,0 +1,130 @@
+[52555059]
+
+Based on the information you provided to us, you may qualify for an exciting career as an Air Force officer! - part of an email I received from www.AirForce.com
+
+You’ll notice that it’s been quite some time since my last update.  The reason for this is that, for a period of about two weeks, I spent most of my free time exploring my options in the United States Air Force instead of working on C++.
+
+The first place I looked was the official Air Force website.  Unsurprisingly, the picture that it painted was entirely positive; I felt like I was a shoo-in and that I would get exactly what I wanted, as long as I could achieve a high enough score on the ASVAB.  I’m sorry to report that the days that followed transformed that perception into quite a pessimistic one.
+
+The primary reason I was excited about joining the Air Force was because I thought I could enter as an officer, due to the fact that I already have a bachelor’s degree.  This would significantly increase the size of my paycheck, and it would open up several job opportunities that aren’t offered to enlisted members.  I had a good GPA, I have good credit, and I don’t have a criminal record.  So, I called the local OTS (officer training school) recruiter.
+
+And I called again.
+
+And again.
+
+And again.
+
+Sadly, it has been about three weeks since the first time I attempted to contact the OTS recruiter, and I still haven’t heard back from her.  I’ve also gone by her office and emailed her several times.  Still, nothing.
+
+I understand that she is probably inundated with requests like mine, as she is the only OTS recruiter in an area that suffers from high unemployment rates and overpopulation.  However, this doesn’t change the fact that my original excitement is all but gone, as I feel like I would be walking up an endless staircase if I continued to pursue this avenue.  In addition to this, further research online has shown that becoming an officer right off the bat is actually quite difficult, and that the positions usually only go to people with technical degrees (mine is in music).
+
+I haven’t given up hope altogether.  I have my ASVAB study guide, and I’m even attempting to get together with an enlisted recruiter to schedule a time to take it.  However, even those recruiters have proven difficult to get in touch with.  I’ve left two voicemails so far, in addition to applying through the air force website.  From this point forward, I’ll be refocusing my energy on C++ until THEY contact ME.
+
+[phone_dangling4]
+
+***
+
+So, C++ then!
+
+Since my last entry, I learned a bit about data types and arrays, among other things.  Allow me to briefly explain what each of those are:
+
+-Data types-
+
+One of the things that sets C++ apart from other programming languages is the control it allows over your computer’s resources (namely, memory).  Data types are the most basic way of exercising this control.
+
+Say, for example, you want to create a program that adds and subtracts numbers.  With another programming language, numbers might automatically fall into a category of, say, “any number between -1 billion and +1 billion”.  This means, any time you use a number, your computer is processing that number out of 2 billion total possible numbers.  With a simple program, this would not matter much.  However, when programs become more convoluted and involve the computation of more and more data, this can become taxing on your system’s memory.
+
+With C++, you have the option of choosing the data type appropriate to the task you’re trying to accomplish.  Thus, instead of choosing a number between -1 billion and +1 billion, you could choose a number between something like -1000 and +1000, if it better suited your needs.  Of course, if you expected to be working with larger numbers, you could always do so by choosing a data type with a wider range.  It all just depends on the needs of each individual program.
+
+This flexibility allows your C++ programs to execute more efficiently, albeit sometimes taking a bit longer to code.
+
+-Arrays-
+
+Before I learned about arrays, the only way I knew to initialize a variable (i.e., a unit that stores a value for computational use) was one at a time.  This means, if you had a calculation that required several different variables, you had to come up with a unique name for each.
+
+With arrays, you simply come up with one name, and create an index within that name to store all of the variables within.  Thus, instead of this:
+
+-Apples
+-Oranges
+-Bananas
+-Grapes
+-Melons
+-Pears
+
+You can just write this:
+
+-Fruit[6]
+
+As with data types, this is a tool that, while not always necessary to code a program, will eventually come in handy when dealing with large, complicated projects.  In fact, this leads me to another point about programming that I’m learning, which is that programming *well* is just as important as being able to program, at all.
+
+For any given task, there will be semi-infinite ways of writing code to accomplish it.  However, some ways are better than others, and it’s the job of a skilled programmer to write code as efficiently and cleanly as possible.
+
+An analogy:  You can write 2+2=4, or you can write 1+1+1+1=16/4.  Both equations effectively state the same thing, but one is easier to read (and compute) than the other.  This idea is just as important in programming as it is in mathematics.
+
+We are writing in the language of machines, but we must remember that our work is being read by humans, as well.  And humans have feelings, too!
+
+For fun, here is a simple program I wrote to calculate BMI, as instructed at the end of chapter 3 of C++ Primer Plus.
+
+_______________
+
+#include <iostream>
+int feet, inches, weight, height;
+float BMI, meters, kilograms;
+int main()
+{
+
+               using namespace std;
+
+               cout<<"How many feet tall are you?";
+               cin>>feet;
+               cout<<"How many inches tall are you?";
+               cin>>inches;
+               cout<<"What is your weight, in pounds?";
+               cin>>weight;
+              
+               const int fac1=12;
+               const float fac2=0.0254;
+               const float fac3=2.2;
+              
+               height=(feet*fac1)+inches;
+               meters=height*fac2;
+               kilograms=weight/fac3;
+               BMI=kilograms/(meters*meters);
+              
+               cout<<"Your BMI is "<<BMI<<".  Booya!";
+               cin.get();
+               cin.get();
+               return 0;
+}
+
+______________
+
+The program asks for your height and your weight, and then it calculates your BMI.
+
+***
+
+I came across an article online titled “How to Become a Hacker.”  Not only was the article itself a joy to read, but it has links to many different resources, many of which seem quite useful.  It has since become my go-to guide for “stuff I should read at some point.”  Here’s a link:
+
+How to Become a Hacker
+
+In addition to all of the helpful suggestions, the article touched on the culture of the technologically-savvy, and it was yet another in a string of sources that have reaffirmed my decision to follow this as a career path.  I am definitely in good company, and it’s nice to constantly be reminded of that.
+
+(A note about the term “hacker”: media and pop culture have made this into a naughty word, using it mostly to describe illegal activity such as retrieving passwords, accessing private databases, and so on.  However, according to the article, real hackers are benevolent and generous, always working together to improve the technological landscape.  The evildoers?  They are known as “crackers.”  I want nothing to do with this group.)
+
+[cartoon]
+
+***
+
+In my previous entry, I briefly touched on my plans for a Montessori website that I would be working on with my girlfriend.  While these plans are still being developed, I’ve also decided that it would be wise for me to begin working on a homepage of my own, specifically focused on my work with computers.  I don’t have any plans to begin this in the immediate future, as learning C++ is more of a priority, but I definitely want to start dabbling in web design as soon as it’s practical to do so.
+
+…and aMaCaDaD is available as a domain name!
+
+***
+
+No perceivable vacations/plans/bumps in the road are in my near future, so I’m hoping to gain some momentum with my studies.  Here’s hoping the next entry won’t take as long as this one did!
+
+Current workload:
+
+1) C++ Primer Plus -  3 of 18 chapters completed
+
+Still dreaming...

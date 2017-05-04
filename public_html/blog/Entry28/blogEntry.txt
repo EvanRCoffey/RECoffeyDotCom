@@ -1,0 +1,25 @@
+Hello again!  It’s the first of May, and I am happy to say that, in less than one week, I will be finished with the Coding Boot Camp at UT Austin!  Demo day – Saturday, May 6th – has my full attention and I plan to be in web-dev TURBO mode until then.  Let me get you up to speed with what’s happened since my last entry.
+
+First off, I’m still unemployed.  While I did get some experience with interviewing and the recruitment process, nothing has yet materialized into a job for me.  In terms of freelancing, I got a couple of bites, but none that actually followed through.  Now, I’m open to one-off freelance gigs, but I’m only actively seeking full-time employment.  Why?  Because I’m ready.
+
+Now that the boot camp is essentially finished, I am confident that I will be a successful web developer/software engineer/programmer extraordinaire/whatever the heck title I’ll end up with.  I was challenged in the course, but never stumped, and I feel prepared to create robust, useful websites.  I made a list of all the main technologies we covered throughout the 6 months:
+
+[IMG_1986]
+
+Earlier today, I updated my programming portfolio, which now has six websites available for browsing.  I’d like to talk about two of them here. 
+
+The first, I mentioned in my last entry– it’s a server/bartender companion website, and it can be found at www.preshiftplanner.com.  It expedites multiple necessary tasks, including memorizing new foods and drinks, organizing finances, and setting goals.  A classmate and I built it together and submitted it for our second group project.  It’s pretty sweet.
+
+[preshiftplannerScreenshotTWO]
+
+The second was another collaboration between me and the same classmate, and it’s found at www.appraiseless.com.  It’s used to help homeowners in Travis county find comparable nearby homes for use in a property value protest.  It’s also pretty sweet.
+
+[appraiselessScreenshot]
+
+Between just those two projects, I learned about a metric ton of information.  I’ve already given you one list, so I won’t give another, but if you’re interested in any of the technologies used on either site, check out my portfolio, at www.recoffey.com.
+
+I still plan to work a good bit more on www.preshiftplanner.com.  I’m proud of it, I think it is useful, and I’ll continue to improve it.
+
+As I mentioned before, demo day is soon.  Expect another entry shortly thereafter, with pictures of the event and an update on the job hunt.  Between now and then, I’m gonna be tying up all the loose ends of the boot camp, applying to as many jobs as I can, and preparing myself for this book to finally, FINALLY reach its next chapter.
+
+...still dreaming

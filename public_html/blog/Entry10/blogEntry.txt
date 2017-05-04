@@ -1,0 +1,66 @@
+[latoms]
+
+On the road again... I just can't wait to get on the road again...
+
+Well, hello there!
+
+They say good things come to those who wait, so this entry should be a great read!  It’s been 8 months since I last updated aMaCaDaD, and I have lots to talk about.  Let’s get started, shall we?
+
+I no longer live in California.  Later on, I’ll explain what I’m doing now, but in the meantime, I’d like to talk a bit about my time there.
+
+California, sadly, was not kind to me.  For most of 2013, I struggled financially in a way I never had before.  Due to the cost of living of the area, the obstacles brought on by my job, and the depletion of my savings by the move, I ended up having to borrow quite a bit of money from loved ones in order to pay my bills on time.  It hurt my pride, but I needed help.
+
+Additionally, around September, small amounts of cash began turning up missing, and after setting up a hidden camera in the apartment, my girlfriend and I learned that our roommate had been stealing from us.  We discussed the situation, and, given that we were already planning on moving away at the end of the year, we decided to secure our belongings from the roommate, get extra footage of her in the act to protect ourselves in case it escalated, and just avoid confronting her about it until we could get the heck out of dodge.  A timely promotion at work eased my financial burden a bit, and after a 4-month period filled with nothing but work and trying to make sense of the difficult year I was going through, we left.
+
+I’ll save you the boo-hoo’s and the why-me’s, but California wasn’t only stressful because of money.  I also had some growing up to do that I had been putting off.  I won a trip to Dublin, Ireland to play in the Pro Tour for Magic: The Gathering that I ultimately had to cancel because I couldn’t take the time off of work.  I ended up realizing I couldn’t maintain my devotion to the game if I wanted to achieve the goals I was setting for myself, so I quit and sold my entire collection.  I had to learn how to successfully navigate an adult, live-in relationship.  I had to embrace the gravity of my decision to start an entirely new career.  I had to learn to cope with things not going my way all the time.
+
+Luckily, I think I handled it all pretty well.  Things are going great with the girlfriend, we safely avoided confrontation with the roommate, and I feel like a different, more mature person.  It was a tough year, but it was worth it.
+
+So, now I’m back in my home state of Mississippi, and my situation is much better.  I’m working at a restaurant here, and money is good.  I’m living with my parents, so I’m able to save much of what I earn.  I used my tax refund to pay back the debt I accrued in 2013; aside from student loans, I’m 100% out of the hole.  My girlfriend has been spending some time with her family, but in a couple of weeks, she’ll be moving in with me.  I’ve come back up from the low mental state I fell to in California, and I’m starting to remember what optimism feels like.  I’ve resumed my studies with C++, and I’m excited to keep learning.  But the best piece of news?  Well, that requires a drumroll.
+
+Brdrdrdrdrdrdrdrdrdrdrdrdrdrdrdrdrdrdrdrdrdrdrdrdrdrdr pop!
+
+My girlfriend was just offered a position as a Montessori guide in Austin, Texas, and we’ll be moving there in just over 4 months.  She starts mid-July.
+
+It’s so nice to finally have some clear direction as to where our life is headed and how we should prepare for it.  I have a new outlook on life – one that I’m happy to blog about!
+
+[AustinSkylineLouNeffPoint-2010-03-29-b]
+
+Austin!!!
+
+My plans for between now and July include getting back in physical shape (I admittedly let myself go a bit last year), saving as much money as I can, and learning as much about computers as I can.  The goal is to establish residency in Texas so that I can get in-state tuition at one of the colleges there – preferably, The University of Texas in Austin – for the fall 2015 semester.
+
+Unfortunately, while in California, I didn’t study much more about C++ than what I detailed in the previous blog entry.  In fact, I actually took a break from it, altogether.  Thus, when I got back into it a few weeks ago, I basically had to start from scratch.  Also unfortunately, in late 2013, my hard drive failed, and I had to replace it.  Thus, many of my C++ notes were lost.  So, in the last few weeks, I’ve spent quite some time studying, but half of that time was just re-learning the things I already blogged about.  However, I eventually overcame that hurdle and have since learned some new concepts: arrays, structures, and pointers.
+
+As I’ve stated previously in this blog, I don’t want to get too jargon-y.  However, I get the feeling that, the farther I get in my studies, the more difficult it will be to explain what I’m learning without said jargon.  Until then, I’ll do my best.
+
+Arrays and structures are similar, in that they are items which constitute a collection of other items.  The difference between them is that arrays are made up of items of one data type, while structures are made up of items of several different data types.  In other words, an array is a basket of apples, while a structure is a basket of apples, oranges, bananas, and melons.  They’re pretty intuitive concepts and were easy for me to grasp.
+
+Pointers, on the other hand, have been a bit more challenging.  Essentially, a pointer is not a piece of data, but it is an object which points at another piece of data.  They are used primarily for efficient use of memory.
+
+To explain: imagine you have a program which organizes and manipulates statistics of baseball players.  Say you want this program to include height, weight, RBI, salary, and several other pieces of data on every baseball player in a league, and you want to be able to manipulate that data in various ways.  If you created structures to contain the data and were constantly copy-pasting those structures, eventually, you’d end up using a lot of space.  However, with pointers, instead of moving large chunks of data around repeatedly, you create much smaller items which simply point the original chunks of data.
+
+This may sound easy enough, but once I started to have to think in terms of memory addresses, it became difficult for me to conceptualize, as it was abstract and unlike any kind of thinking I had done with computers up to that point (get it?  point?).  However, I spent some time with it, and now I’m comfortable enough to move on to the next chapter of my book.  Next up: loops and relational expressions!
+
+[6-096iap2011]
+
+Before I go, I’d like to briefly mention how my relationship with the military came to a close.
+
+As stated in previous entries, the only real reason I got excited about the military in the first place was because I was led to believe, not only by friends and family but by the Air Force website, that I stood a good chance at starting as an officer.  Long story short, it took me way, way, wayyyyyyyyyyyyyy too long to learn that I actually stood no chance whatsoever.  Only after I moved back home and contacted an Officer Training School recruiter in this area was I finally told that the Air Force was not even considering applicants without technical degrees.
+
+The thought of many other people, exactly like myself, being misled and wasting the amount of energy that I wasted on a meaningless pursuit, is frustrating.  I could’ve done so many other things with that time, but instead, I spent it leaving voicemails, writing emails, scheduling appointments, talking to friends and family members, making plans, and so on, all to ultimately be told that I shouldn’t have bothered in the first place.
+
+I guess all I can say is that now, I don’t have to worry about wasting any more time, and I can focus on getting this career change done the good, old-fashioned way.  I’m glad someone finally took the 30 seconds to call me on the phone and tell me the truth.
+
+[uncle-sam-we-want-you]
+
+Hopefully, the next blog entry won’t take 8 months.  I have a little bit of momentum going with C++, and I hope to keep it.  I still have a lot to learn, but the more I do, the more interesting it becomes.  Here’s hoping it stays that way.
+
+I’m glad to be back
+
+ Current workload:
+
+1) Getting out of California - Done!
+2) C++ Primer Plus -  4 of 18 chapters completed
+
+Still dreaming...

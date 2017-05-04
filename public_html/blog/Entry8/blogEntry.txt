@@ -1,0 +1,58 @@
+[ars_longa_vita_brevis]
+
+"If you are beginning to think that learning C++ may involve some mind-stretching effort on your part, you're right." - C++ Primer Plus, Stephen Prata
+
+
+Now that my career path is more clearly defined and the topics I'm studying are becoming more and more esoteric, a difficult question comes to mind regarding this blog.  Do I continue to write in a way that can be understood by people without a background in my field, or should I embrace the jargon that I'm learning?  I want to demonstrate my newfound knowledge, but I also want anyone to be able to read.  What's a blogger to do?
+
+After contemplating this quandary, I decided to continue to write in a way that is accessible to all.  If I eventually decide to start up a second, more specialized, blog - or, perhaps, a website, as I will briefly discuss later in this entry - I will post a link to it here, for those interested.  For now, however, I'll be sticking with aMaCaDaD, and I'll be writing in a way that even the most computer-ignorant can follow.
+
+***
+
+When I first started to learn to code, a few months ago, I began with a programming language called REALBasic.  This language was designed to be easily accessible to beginners, which, at the time, seemed like a good thing.  However, when I started to look deeper into the world of programming, I learned that I would eventually need to learn a more complex and popular language.  I decided to change course and restart my coding education with what is currently the most popular programming language: C++.  I bought "C++ Primer Plus" by Stephen Prata, and I got to work.
+
+[ShowCover]
+
+Thankfully, this book is well-written and (so far) easy to follow.  I've finished the first two chapters, and I feel like I have a firm grasp on some fundamental concepts.
+
+For those of you who don't know what a programming language is, exactly, allow me to explain:
+
+Computers are the most loyal machines on the planet, but they are also the stupidest.  They will do whatever you tell them to do, but they can't make decisions for themselves; you have to tell them, explicitly, what you want.
+
+In the real world, if you wanted somebody to take out the trash, you would simply say, "Would you mind taking out the trash?"  On the other hand, if you wanted a computer to take out the trash, your instructions would have to be something like "Walk to the trash can.  Remove the bag.  Tie the bag.  Walk to the front door.  Open the door.  Walk to the dumpster.  Open the dumpster.  Insert the trash into the dumpster.  Walk back inside.  Retrieve a new bag.  Open the bag.  Put the new bag in the trash can."  You could rest assured that the trash would be taken out exactly the way that you described, but only after you devised the overly-specific instructions.
+
+This is the essence of programming.  You think of a specific task, and then you come up with a way to explain exactly how you want the task to be performed, using a language that was created specifically for computers.  The process of writing code can be tedious, time-consuming, and sometimes frustrating (one mistake can make an entire program inoperable), but once you get a program that works, your computer can perform your task far more efficiently than any human ever could.
+
+[pic5]
+
+Some basic C++ code
+
+So far, I've learned the basic building blocks of a C++ program:  Header files, standard namespaces, cout/cin, functions and their prototypes, variables, data types, classes, objects, keywords, return statements, and various formatting details.  The review and exercises at the end of the second chapter reinforced what I learned, and I'm ready to take a bite out of some more advanced concepts.
+
+***
+
+In addition to C++, I'd like to eventually get my feet wet in the world of web design.  When I apply to colleges at the end of 2013, I want to have a portfolio with some programs and websites that I've created, to show that I mean business.  I've already had an idea for my first online project: a website to promote awareness of the Montessori teaching method.
+
+For those of you who don't know anything of my personal life, allow me to explain why I've chosen this.  My girlfriend is a Montessori guide, and she is very passionate about her work.  She yearns for the public to be better educated on the teachings of Montessori, and for good reason.  Maria Montessori was a brilliant woman, and she changed the world with her findings on early childhood education.  Here is a link to the Wikipedia page on the Montessori teaching method.
+
+The reason I'm excited about the idea of creating such a website is because it helps both of us at the same time.  It helps boost my resume because I will have built on my own, and it helps boost her resume because she will provide all of the actual content.  It's also for a great cause that we both feel passionately about.
+
+At this point, it's nothing more than an idea, but she and I agree that it's a good idea.  Hopefully, eventually, that idea will come to fruition.
+
+***
+
+I put a hold on looking at schools so that I could focus on learning C++, but before I did, I learned two unfortunate truths about the financial side of college.  First off, non-borrowed financial aid is going to be nigh-impossible to earn for my second bachelor's degree.  For example, pell grants aren't given to second-attempt students, regardless of financial status.  Additionally, the school-awarded scholarships/fellowships/aid are usually given to traditional students, because, well, I've already had my chance.
+
+The second thing that I learned was the importance of in-state tuition.  Admittedly, I didn't realize this before, as my first bachelor's degree was at a college from the same state as my high school, and I had a teaching assistantship at grad school which covered my tuition there.  However, now, the difference in out-of-state and in-state tuition could easily be the difference between my being able to attend a school and not being able to attend a school.
+
+Learning these two things made me a little pessimistic, but I reminded myself that I had many things to be optimistic about.  I may not have as easy a time paying for college as I did the first time through, but my confidence in my ability to "nail it" and find a job the moment I finish is definitely higher than when I was 18.  Additionally, I don't have as much debt as many other college graduates, so I can afford to take out some loans.  Finally, I have a girlfriend and a family that support me; this is more important than anything else.
+
+***
+
+More C++ on the way.  Stay tuned!
+
+Current workload:
+
+1) C++ Primer Plus - 2 of 18 chapters completed
+
+Still dreaming...

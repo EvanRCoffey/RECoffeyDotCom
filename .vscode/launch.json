@@ -9,20 +9,20 @@
             "request": "attach",
             "name": "Attach to Process",
             "processId": "${command:PickProcess}",
-            "port": 5858
+            "port": 8080
         },
         {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}\\server.js"
+            "program": "${workspaceRoot}\\models/model.js"
         },
         {
             "type": "node",
             "request": "attach",
             "name": "Attach to Port",
             "address": "localhost",
-            "port": 5858
+            "port": 8080
         }
     ]
 }

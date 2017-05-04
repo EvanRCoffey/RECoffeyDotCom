@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Evan's website - Bio</title>
+	<title>Evan's website - Blog Entry</title>
 	<!--Google Font-->
 	<link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
 	<!--CSS Reset file-->
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/css/reset.css">
 	<!--External CSS file-->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
 	<!--jQuery link-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
@@ -15,24 +15,32 @@
 
 <!--Header, with links to bio, blog, portfolio, and contact-->
 <div id="header">
-	<a href="contact.html" class="navBarLinkRight" >Contact</a>
-	<a href="portfolio.html" class="navBarLinkRight">Portfolio</a>
-	<a href="blogCurrentEntry.html" class="navBarLinkRight">Blog</a>
-	<a href="bio.html" class="navBarLinkRight" style="color:khaki">Bio</a>
+	<a href="../../contact.html" class="navBarLinkRight" >Contact</a>
+	<a href="../../portfolio.html" class="navBarLinkRight">Portfolio</a>
+	<a href="../../blogCurrentEntry.html" class="navBarLinkRight" style="color:khaki">Blog</a>
+	<a href="../../bio.html" class="navBarLinkRight">Bio</a>
 </div>
 
 <!--Main page content-->
 <div id="mainSection">
-	<br><br>
-	<img src="https://raw.githubusercontent.com/REvanCof/RECoffeyDotCom/master/public_html/assets/img/bio1.jpg" height="300px" width="auto">
-	<br><br>
-	Musician, turned server, turned web developer, I'm currently living in Austin, TX, writing code and working to move myself forward in the world of web development. I completed my A.S. in Computer Science from Austin Community College in December 2016, and I completed The Coding Boot Camp at UT Austin in May 2017. I'm anxious to get my hands dirty in a full-time programming environment.
-	<br><br>
-	Want to know more about me?  <a href="blogCurrentEntry.html" class="normalLink">I've been keeping a blog since 2013</a>
+
+<a href="../Entry10/blogEntry.html" class="normalLink">Past</a>
+<a href="../../blogList.html" class="normalLink">Blog list</a>
+<a href="../Entry12/blogEntry.html" class="normalLink">Future</a>
+<br /><br />
+
+<p>
+This particular blog entry was actually a VLOG entry, and I was unable to port the video from there to here.  In it, I described my move to Austin, spoke on my engagement to Lesley, and detailed the first few weeks of life in TX, where I was working at Westwood Country Club and Fleming's Prime Steakhouse and Wine Bar and thinking about how to start my formal education.
+</p>
+
+<div class="separator" style="clear: both; text-align: center;">
+<object class="BLOG_video_class" contentid="77fa0f545aaf9cb" height="266" id="BLOG_video-77fa0f545aaf9cb" width="320"></object></div>
+<br />
+
 </div>
 
 <!--Footer, with current page and random complement-->
-<div id="footerIndex" style="display: none">
+<div id="footer" style="display: none">
 	<div id="footerFloatRight"></div>
 </div>
 
@@ -51,7 +59,7 @@
 	$( document ).ready(function() {
 		var complement = randomComplement();
 		$( "#footerFloatRight" ).html(complement);
-		$( "#footerIndex" ).fadeIn(2000);
+		$( "#footer" ).fadeIn(2000);
 	});	
 </script>
 

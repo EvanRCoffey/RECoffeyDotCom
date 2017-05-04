@@ -1,0 +1,33 @@
+Hello, again!  It's been a few months since my last entry.  Lots has happened since then, so let's get started!
+
+As the summer came to an end, so did my web development curriculum.  I ended up completing tutorials for HTML, CSS, Javascript, and PHP on w3schools.com and codecademy.com.  I also downloaded a few HTML editors to get a feel for them, and while I only completed one real website (more on that later), I did toy around with a few personal ideas just to get my hands dirty with the material before I put it away.  Then, I organized all of my notes and left everything where, when needed, I could pull it out and pick back up where I left off.  I don't have any more plans to use those skills at the moment, but I'm still glad I took the time to learn them.
+
+[59beaeaf0b1316e01d82ab85b6d4e8c5]
+
+For the Fall 2015 semester, I have been enrolled in Calculus II and Programming Fundamentals II.  I'll be finishing them up in just a few weeks.  Both Calculus I and II have been a real challenge for me compared to math classes from my past, but Programming Fundamentals has been comparatively easy.  Luckily, writing code has come pretty naturally up til now - hopefully it'll stay that way as the problems get more and more complex.
+
+I've already signed up for my Spring 2016 semester classes, and I'm excited that I'll finally have two computer classes, instead of the 50/50 splits I've been having.  I'll be taking Programming Fundamentals III (Data Structures) and Computer Organization and Machine Language (PC Assembly).  I'm stoked.
+
+[binary_slam_medlarge490]
+
+Another thing I'm stoked about is that I have (finally!) decided on my precise career plans for the next year and a half.  Instead of transferring to a 4-year university as quickly as possible like I originally planned, I will be staying at ACC for a few more semesters to complete an Associate's in Computer Science.  There are two big reasons I have made this decision:
+
+1) It's convenient - with the transfer credits from my bachelor's degree, at the end of this semester, I will have completed 38/60 credits necessary for the associate's.  At the end of the Spring 2016 semester, I will have completed 45/60.  From there, it will be easy for me to finish, and quickly.  It's also affordable, and I've already got financial aid lined up to pay for it.  The convenience will open up more time for me to focus on work and enhance my resume/portfolio.
+
+2) The career specialization I have chosen does not require extensive education to get an entry-level job.  My focus will be on two areas of tech to begin my career: programming, and information technology (IT).  I have chosen these not only because I feel they give me the best chance of actually entering the industry in a reasonable length of time, but also because I need a field that meshes well with a rural lifestyle, where Lesley and I hope to one day be.  IT jobs are everywhere - even rural areas - and programming can (theoretically) be done from anywhere.  Additionally, the generalized nature of the Computer Science degree means that I still have some flexibility, should my career take an unexpected turn.
+
+So, between now and the summer of 2017, that's what I'll be doing - going to school, beefing up my portfolio in my spare time, and working.  Where will I be working, you ask?  I'll talk about that in a minute, but first...
+
+I'm a married man!  On October 5th, 2015, I married the love of my life.  We were wed under a pavillion at the Boardwalk Resort at Walt Disney World, in Florida, but we could've done it in open air, the weather was so beautiful that day.  However, of course, nothing that day was as beautiful as my bride.
+
+[GetImageWithCaching]
+
+We stayed at Disney for a few days after the wedding, which was a lot of fun.  It took a good bit of planning, and I'd be lying if I said there weren't a few stressful moments, but overall, it was a wonderful experience.  I'm happy to have returned from the honeymoon to a great big life ahead of me with my new life partner.
+
+(Oh, and by the way, the website I worked on during the summer was a simple wedding website for friends and family.  I didn't want to spoil the wedding surprise for any new readers.)
+
+So, what's ahead of me, then?  Well, I'm happy to say that I'm finally going to put myself out there and attempt to find work outside the restaurant industry.  I'm not sure how long it will take until I find a good fit, and I'm not sure exactly what work I'll end up doing, but I need to start my journey somewhere, and I'm ready to start it now.  Luckily, my Spring schedule is pretty open, so there's a wide variety of jobs I should be able to apply for, and I can start as soon as December 28th.  Hopefully, one of them will turn out to be a change worth making.
+
+I'm hoping to blog more often now that the job hunt has started and I'm ready to focus more on my new career.  I've been lying low for a while, handling other areas of my life while learning bit by bit that which I needed to decide on a specialization.  Now, I have, and I want to start to feel the same way about computers that I did about music.  I sense more and more every day that I made the correct decision to work with computers.  I can't wait to see if I'm right.
+
+Still dreaming...

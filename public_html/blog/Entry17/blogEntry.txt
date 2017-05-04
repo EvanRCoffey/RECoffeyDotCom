@@ -1,0 +1,21 @@
+[giphy]
+
+Hello, world!  I have lots to tell you about, so let's get right to it.
+
+First off, school.  I recently finished Programming Fundamentals I and Calculus I at my local community college, and until the Fall semester begins, I'm taking a break from class to open up time for some independent work.  I've already started studying HTML using the tutorials on w3schools.com.  I plan to start working on a personal website for myself, as well as a Montessori website for my fiancee.  This will be a good way for me to show what I've learned and hone my skills.  After HTML, I will spend some time learning Javascript and PHP.
+
+Why the sudden push for web development skills, you ask?  The long and short of it is that I want to get out of the restaurant industry as soon as possible, and learning how to code (offline AND online) seems to me the best way to accomplish that while still moving forward with The Big Picture.  I've got a semester of Python under my belt, and in the Fall, I plan to take Programming Fundamentals II, which primarily uses C++.  With knowledge of those two languages, plus the studying I'll do over the summer, I'm hoping that someone in this city will find it beneficial to pay me to write code for them.
+
+Until then, however, there are some other goings-on.  Lesley, my fiancee, is almost done with the school year, and we're both looking forward to the her summer break.
+
+I've pretty much settled in at work.  Given that my goal is to leave the restaurant industry soon and that I am satisfied with my current position until that happens, I've stopped chasing promotions and am focusing more on being dependable and consistent.  I serve about half the time and backwait the rest.
+
+I recently went home for about a week to visit family.  It was a pretty fantastic trip.  It can be easy to get swept up in all of the trials and responsibilities of life and forget where you came from.  Always nice to go home.
+
+This summer is looking to be pretty quiet, which is a good thing.  My to-do list is still not complete (will it ever be?), but I'd like to scratch as many items off of it as possible by the time class starts again in the Fall.
+
+[EndlessToDoList]
+
+Til next time, I'll be learning how to make web pages!
+
+still dreaming...

@@ -1,0 +1,28 @@
+In my last entry, I alluded to the fact that an "arrival point" was in my future, though I didn't know at the time what that would be.  A few weeks later, after doing some research and consulting with loved ones, I decided to enroll in the Coding Boot Camp at UT Austin.  It starts October 17th, lasts until mid-April 2017, and I'm hoping it'll prepare me to begin a career in web development.
+
+The Coding Boot Camp at UT Austin
+
+[Screen Shot 2016-05-09 at 9.47.20 AM]
+
+It's a full-stack program, so it should prepare me to do front-end work as well as back-end work.  It's pretty intense (10 hours of class and recommended 20 hours of homework per week, for 6 months), but that's exactly what I want and need.  I'm thrilled to finally have a career focus that I can really sink my teeth into.  And, in just a few months, I'll finish my A.S. in computer science, opening up even more time for me to dive into web development.
+
+Speaking of the A.S., I'm finishing up week 6 of my final semester.  I'm already a week ahead in my online biology class (really interesting stuff!), and I'm right on track with computer architecture.  The majority of my out-of-class work for Computer Architecture has been setting up various programs and websites and familiarizing myself with them: Github, VMWare, and the Linux command line are three of the big ones.
+
+[github-bb449e0ffbacbcb7f9c703db85b1cf0b]
+
+Github is an amazing website.  It's a source code control system that allows multiple programmers to work on large, complicated projects, facilitating communication, code swapping, and backing up every change that is made to the project throughout its life cycle.  It takes a bit getting used to, but once you get the hang of it, it's an invaluable tool that, from what I understand, is ubiquitous in the programming world.
+
+[VMware_logo_gry_RGB_300dpi]
+
+VMWare is a program that sets up and runs virtual machines.  Essentially, it sets aside some of your computer's resources to load an operating system *inside* your current operating system.  In my computer architecture class, we're working primarily in Linux, using the command line.  The command line is not completely new to me, but I'm certainly not proficient with it.  I'm learning as I go, though, writing down commands and shortcuts I expect to use often in the future.
+
+I'm hoping to work as far ahead as possible in my two ACC classes before the boot camp starts.  I'm still going to be working a couple shifts a night through the rest of this year, so I'll be quite busy and don't want to fall behind, if I can help it.  I've also already started the pre-work for the boot camp - 10 "modules" going over the basics (HTML, CSS, Javascript) - that needs to be finished by October 17th.  I'm hoping the tutorials I completed last summer will give me a leg up with that.
+
+Finally, before I go, meet Remy!
+
+[14333585_10101665577611339_885297474826574207_n]
+[14355629_10101674489077689_1109762429585993522_n]
+
+He's 2 months old, and he's the best kitty in the world.  He's the first pet I've owned as an adult, and I'm really enjoying taking care of him with Lesley.  He's ferocious!
+
+still dreaming...

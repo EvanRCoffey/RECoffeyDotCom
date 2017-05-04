@@ -1,0 +1,50 @@
+[programmer_creattica_full]
+
+A rare photo of the elusive "floating in mid-air" computer programmer
+
+In my previous entry, I detailed plans to explore careers involving computers.  While I have devoted a good bit of time to that, I have also been slightly distracted by a handful of other things - namely, a book on engineering that my mother bought for me, and my hunt for a new restaurant job.  Because of this, today's entry lacks the focus I was hoping for, and for that, I do apologize.  However, it's been a week and a half since my last entry, and I wanted to check in.
+
+***
+
+First things first: the job hunt.  Before I started my research on local restaurants, I went ahead and applied to one about a mile from my house that I was pretty sure would be a good fit.  Luckily, using the job-hunting skills I recently learned about in "What Color is Your Parachute", I scored an interview within a few days.  The interview went well, and I was told that I'd be contacted "soon" for a second interview.  While I waited for the phone call, I finished my research, "just in case", but I didn't actually apply to any more places.  Unfortunately, since then (7 days ago), the second interview I was promised has still not yet been scheduled.
+
+I don't think I've been forgotten, as I've been told multiple times by multiple people that they're going through a transition between managers and they're momentarily "spread thin".  However, I can't afford to sit idly and wait.  My patience is wearing thin, but I'm going to wait another day or two to call them one final time and insist on action being taken.  If they can't accommodate that, I'm going to forget about them and start applying to the other restaurants.
+
+***
+
+Before I get to my findings on computers, I'd like to first talk about a book called "Is There an Engineer Inside You?" by Celeste Baine.
+
+[is there an engineer inside you]
+
+Admittedly, I didn't read the entire book, as I found much of the content either irrelevant or redundant.  However, I read enough to have a clearer picture of the differences between all of the engineering fields, which was the reason the book was given to me.  After finishing, the two fields that interested me the most were the same two as before I started the book: Civil Engineering and Industrial Engineering.
+
+I still haven't researched these fields enough to share any real insight with you, but at least now, it's clear where my energy should be focused when I get to that point.
+
+***
+
+When I began my research on computers last week, the first thing I did was revisit the occupational outlook handbook.  I compared and contrasted all of the different jobs within the field, and I found that a majority of the careers could be acquired with a bachelor's degree in Computer Science.  This is good news, because if I decide that I want to go to school for a career in computers, I can do so without having to decide on a specialization until I've had time to figure out what area(s), specifically, would be the best for me.
+
+Since then, I've spent more time learning about programming than any other computer-related field, as it's what I know the least about.  Luckily, after many hours of searching the internet for free, beginner-friendly, easy-to-follow instructions, I finally found what I was looking for: a "curriculum" provided by Real Studio, a compiler based on a programming language designed for beginners but used by experts, called BASIC.  This was a great find, as "Beginning Computer Programming For Dummies" was not as helpful as I was hoping it would be, plus all of the other resources I found were confusing, out-of-date, or poorly written.
+
+The curriculum is 27 lessons long.  I'm on lesson 5, right now.  So far, I've learned about assignments, data types, conditionals, variables, loops, boolean expressions, debugging, and various Real Studio-specific language concepts.  It's all very new and a little bit hard to crack, but I feel like I'm starting to "get it".  And the best part? I think I might like it!  I've been taking thorough notes and I'm confident I'll keep learning.
+
+[code_editor]
+
+Working in Real Studio
+
+
+Unfortunately, it seems that a career in programming isn't all rainbows and butterflies.  Several sources have mentioned that it's a notoriously stressful line of work, with many unrelenting deadlines and a burnout factor even higher than teaching preschool.  I spoke with a friend of mine who used to be a software developer and is now a consultant.  He said that this reputation is not far from the truth, and that you're often working for people with much more money than you but much less common sense.  He said that it's not uncommon to be asked to change your work because of last-minute "great ideas", and that working within unforgiving confines (such as deadlines or lack of appropriate finances) is common.  However, he also said that it's not always that way, and that, like most careers, it really just depends on the specific job that you get.  I'm not going to let this information scare me away from the field, though.  I'm just going to keep it in my back pocket.  After all, it can't be that all programmers are unhappy, right?
+
+***
+
+That's all for now.  I'm hoping to have made significant progress on the curriculum and to have secured a new job by the time I write my next entry.
+
+Current workload:
+
+1) "Practical Algebra: A Self-Teaching Guide" - on hold for now
+2) Beginning Programming For Dummies - on hold for now
+3) Hunt for a new job - in progress
+4) Programming curriculum - 4 of 27 lessons completed
+5) "Is There an Engineer Inside You?" - finished!
+
+Still dreaming...

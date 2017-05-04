@@ -1,0 +1,13 @@
+Hello again from pollen-covered sunny Austin, TX.  Spring is here, and thank goodness for that!  I'm ready for shorts weather.
+
+[c7c65aea2b953aa8aa2166dc00fefcd9]
+
+Life since my last update has been filled with code - lots and lots of code.  For a few weeks, my time was divided between boot camp homework assignments, mine and my wife's websites, and learning some tricky new back-end concepts.  Then, about 3 weeks ago, I started work on a website that my coding buddy and I ended up using for this weekend's group project assignment.  It's a restaurant server/bartender companion that helps with organizing finances, studying menus, and managing goals.  I had the idea a little over a year ago; originally, I planned to write it as an offline app, but I think it is much more useful as an internet-based app.  It's still in a beta test, so I don't yet want to publicize the domain name.  However, it's nearly done.  Just a few bugs needs fixing before it's ready to be used by the public.  I'm proud of the work we've done on it, and I can't wait until it's ready to show off.
+
+With the near completion of this project, plus the impending completion of the boot camp, I am engaged full-throttle in the hunt for a full-time web developer job.  I do indeed feel ready to write salary-worthy code, so I'm not waiting until the end of the program to apply; I'm starting now.  My plan is to advertise for freelance work while looking for a full-time job in or near Austin.  If I get a job, I'll remove the advertisements.  If I get what I feel is a full-time schedule's worth of freelance opportunities, I'll pull back on applying for jobs.  Either way, after the last few months and, especially, these last few weeks, I feel prepared to take on a wide range of programming tasks.
+
+[giphy]
+
+I'll check back in again when I get news.  Hopefully, it'll be good news :)
+
+...still dreaming

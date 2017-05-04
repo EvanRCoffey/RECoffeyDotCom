@@ -1,0 +1,19 @@
+I'm 3 weeks into the boot camp, and I'm happy to report that I'm optimistic not only for my success in, but also after the class.  I've made a few friends, and I like the instructors, as well as the TAs.  We meet three times a week - Monday and Wednesday nights, and Saturday during the day.
+
+[maxresdefault]
+
+What class is like.  More or less.
+
+We've already covered a good bit of material.  In week one, we covered HTML and CSS basics.  In week two, we spent more time on CSS, especially Bootstrap.  We just started Javascript, in week three.  As you can see, things are moving quite briskly.  I like that the curriculum prepares us to make somewhat legitimate websites quickly, not getting mired in details everyone will eventually just google, anyway.
+
+So far, I've created a basic three-page site (About, Portfolio, and Contact pages) with text, images, style, forms, and a nice layout.  This week's assignment is to create the same site again but using media queries and Bootstrap to allow for multiple sizing options and CSS themes.  Next week's assignment is to use Javascript to write a simple in-browser Hangman game.
+
+Meanwhile, in Computer Architecture, we're finishing up studying the Pentium processor so we can move on to studying the ARM processor (used mostly in mobile devices).  We've spent a little bit of time with assembly language, and we had a group project where we used a Raspberry Pi 3 computer to load an operating system and write a simple C++ program.  Just 8 more weeks, and I'll be done with my A.S.!  I'm kiiiiinda looking forward to it. :)
+
+That about covers it, to be honest.  I've been staying pretty busy the past few weeks with class, work, and of course, Remy.  Feels good.
+
+[14444854_10101677822617249_5205705333247772371_o]
+
+Comfy.
+
+still dreaming...
