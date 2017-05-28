@@ -2,37 +2,43 @@
 <html>
 <head>
 	<title>Evan's website - Home</title>
-	<!--Google Font-->
-	<link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">	
-	<!--CSS Reset file-->
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--External CSS file-->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<!--jQuery link-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
-<body>
+<body class="subpage">
 
-<!--Header, with links to bio, blog, portfolio, and contact-->
-<div id="header" style="display: none;">
-	<a href="contact.html" class="navBarLinkRight">Contact</a>
-	<a href="portfolio.html" class="navBarLinkRight">Portfolio</a>
-	<a href="blogCurrentEntry.html" class="navBarLinkRight">Blog</a>
-	<a href="bio.html" class="navBarLinkRight">Bio</a>
-</div>
+<!-- Header -->
+	<header id="header" style="display: none;">
+		<div class="inner">
+			<nav id="nav">
+				<a href="bio.html">Bio</a>
+				<a href="blogCurrentEntry.html">Blog</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html" style="color: khaki">Contact</a>
+			</nav>
+			<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+		</div>
+	</header>
 
-<!--Text slowly fades into the page-->
-<div class="homePageText" id="homePageText1" style="margin-top: 95px">Well, hello there</div>
-<div class="homePageText" id="homePageText2">Don't you look nice</div>
-<div class="homePageText" id="homePageText3">And you smell great, too</div>
-<div class="homePageText" id="homePageText4">Oh, hey, there's a header</div>
-<div class="homePageText" id="homePageText5">Oh, wow, a footer too</div>
-<div class="homePageText" id="homePageText6">Maybe you should click one of those links up there</div>
+<!-- Three -->
+	<section id="three" class="wrapper">
+		<div class="inner">
+			<!--Text slowly fades into the page-->
+			<div class="homePageText" id="homePageText1" style="margin-top: 95px">Well, hello there</div>
+			<div class="homePageText" id="homePageText2">Don't you look nice</div>
+			<div class="homePageText" id="homePageText3">And you smell great, too</div>
+			<div class="homePageText" id="homePageText4">Whoa!  Oh, hey, there's a header</div>
+			<div class="homePageText" id="homePageText5">Maybe you should click one of those links up there</div>
+		</div>
+	</section>
 
-<!--Footer, with random complement-->
-<div id="footerIndex" style="display: none">
-	<div id="footerFloatRight"></div>
-</div>
+<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
 <!--Code for delayed fading in of page material-->
 <script type="text/javascript">
@@ -66,7 +72,7 @@
 		    $( "#homePageText5" ).fadeIn(2000);}, 
 		    8500 );
 	    setTimeout( function(){ 
-		    $( "#footerIndex" ).fadeIn(2000);}, 
+		    $( "#footer" ).fadeIn(2000);}, 
 		    8500 );
 	    setTimeout( function(){ 
 		    $( "#homePageText6" ).fadeIn(2000);}, 

@@ -1,0 +1,105 @@
+html { 
+	background: url(https://raw.githubusercontent.com/REvanCof/RECoffeyDotCom/master/public_html/assets/img/bg2.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	font-family: 'Arsenal', sans-serif;
+  	color: #43cfe8;
+}
+
+.navBarLinkRight {
+	font-size: large;
+	color: #43cfe8;
+	margin-right: 20px;
+	float: right;
+}
+
+.navBarLinkLeft {
+	font-size: large;
+	color: #43cfe8;
+	margin-left: 20px;
+}
+
+.connectIcons {
+	margin: 15px;
+}
+
+.normalLink {
+	font-size: large;
+	color: #43cfe8;
+}
+
+.homePageText {
+	display: none;
+	text-align: center;
+	font-size: xx-large;
+	margin-top: 40px;
+	color: #43cfe8;
+}
+
+#header {
+	padding: 15px;
+	font-size: large;
+	color: #43cfe8;
+	text-align: left;
+	height: 25px;
+}
+
+#mainSection {
+	display: none;
+	text-align: left;
+	font-size: large;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+#footer {
+   	left:0px;
+   	bottom:0px;
+   	height:40px;
+   	width:96%;
+   	padding: 15px;
+	font-size: large;
+	color: #43cfe8;
+	text-align: left;
+	margin-left: 20px;
+}
+
+#footerIndex {
+	position: fixed;
+   	left:0px;
+   	bottom:0px;
+   	height:40px;
+   	width:96%;
+   	padding: 15px;
+	font-size: large;
+	color: #43cfe8;
+	text-align: left;
+	margin-left: 20px;
+}
+
+#footerFloatRight {
+	font-size: large;
+	color: #43cfe8;
+}
+
+#blogLinks {
+	margin-bottom: 15px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+#blogLinks .normalLink {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#blogEntryHeader {
+	margin-bottom: 25px;
+	margin-top: 25px;
+	text-align: center;
+	font-size: xx-large; 
+}
