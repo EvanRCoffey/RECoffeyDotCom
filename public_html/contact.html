@@ -2,64 +2,78 @@
 <html>
 <head>
 	<title>Evan's website - Contact</title>
-	<!--Google Font-->
-	<link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
-	<!--CSS Reset file-->
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--External CSS file-->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<!--jQuery link-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
-<body>
+<body class="subpage">
 	
-<!--Header, with links to bio, blog, portfolio, and contact-->
-<div id="header">
-	<a href="contact.html" class="navBarLinkRight" style="color:khaki">Contact</a>
-	<a href="portfolio.html" class="navBarLinkRight">Portfolio</a>
-	<a href="blogCurrentEntry.html" class="navBarLinkRight">Blog</a>
-	<a href="bio.html" class="navBarLinkRight">Bio</a>
-</div>
+<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<nav id="nav">
+				<a href="bio.html">Bio</a>
+				<a href="blogCurrentEntry.html">Blog</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html" style="color: khaki">Contact</a>
+			</nav>
+			<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+		</div>
+	</header>
 
-<!--Main page content-->
-<div id="mainSection">
-	<div style="text-align: center;">
-	<br><br>
-	<img src="https://raw.githubusercontent.com/REvanCof/RECoffeyDotCom/master/public_html/assets/img/contact1.jpg" height="300px" width="auto">
-	<br><br><br><br>
-	<a class="connectIcons" href="https://www.linkedin.com/in/evan-coffey-6288227b" target="_blank"><img src="https://raw.githubusercontent.com/REvanCof/RECoffeyDotCom/master/public_html/assets/img/socialMediaIcons/linkedin.png" align="middle" height="75px" width="auto" alt="LinkedIn"></a>
-	<a class="connectIcons" href="https://twitter.com/REvanCof" target="_blank"><img src="https://raw.githubusercontent.com/REvanCof/RECoffeyDotCom/master/public_html/assets/img/socialMediaIcons/twitter.png" align="middle" height="75px" width="auto" alt="Twitter"></a>
-	<a class="connectIcons" href="https://www.facebook.com/evan.coffey.5" target="_blank"><img src="https://raw.githubusercontent.com/REvanCof/RECoffeyDotCom/master/public_html/assets/img/socialMediaIcons/facebook.png" align="middle" height="75px" width="auto" alt="Facebook"></a>
-	<br><br>
-	<p>Email - RogerECoffey@gmail.com</p>
-	<br>
-	<p>Cell - 228-326-7112 (text or call)</p>
-	</div>
-</div>
+<!-- Three -->
+	<section id="three" class="wrapper">
+		<div class="inner">
+			<!--Main page content-->
+			<div id="mainSection">
+				<div style="text-align: center;">
+				<br><br>
+				<img src="https://raw.githubusercontent.com/REvanCof/RECoffeyDotCom/master/public_html/assets/img/contact1.jpg" height="300px" width="auto">
+				<br><br>
+				<a class="connectIcons" href="https://www.linkedin.com/in/evan-coffey-6288227b" target="_blank"><img src="https://raw.githubusercontent.com/REvanCof/RECoffeyDotCom/master/public_html/assets/img/socialMediaIcons/linkedin.png" align="middle" height="75px" width="auto" alt="LinkedIn"></a>
+				<a class="connectIcons" href="https://twitter.com/REvanCof" target="_blank"><img src="https://raw.githubusercontent.com/REvanCof/RECoffeyDotCom/master/public_html/assets/img/socialMediaIcons/twitter.png" align="middle" height="75px" width="auto" alt="Twitter"></a>
+				<a class="connectIcons" href="https://www.facebook.com/evan.coffey.5" target="_blank"><img src="https://raw.githubusercontent.com/REvanCof/RECoffeyDotCom/master/public_html/assets/img/socialMediaIcons/facebook.png" align="middle" height="75px" width="auto" alt="Facebook"></a>
+				<br>Email - RogerECoffey@gmail.com<br>
+				Cell - 228-326-7112 (text or call)<br><br>
+				This lovely mobile-responsive layout is open-source!  I found it at https://templated.co/
+				</div>
+			</div>
+		</div>
+	</section>
 
-<!--Footer, with current page and random complement-->
-<div id="footerIndex" style="display: none">
-	<div id="footerFloatRight"></div>
-</div>
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="flex">
+				<!--Footer, with random complement-->
+				<div id="footerIndex">
+					<div id="footerFloatRight"></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
 <!--Code for delayed fading in of page material-->
-<script type="text/javascript">
-	//Feel free to add more complements
-	var complementBank = ["I like your shoes","I love your outfit","Your hair looks great today","You smell wonderful","You are an inspiration","You look like a winner","You're just the best","You're so clever","Seriously, you're awesome","You are truly an impressive person","Keep up the good work, champ","You should be proud of yourself","Tone it down some, you're making everyone else look bad","Nice butt"];
-	//Returns a random complement from complementBank[]
-	function randomComplement() {
-		var randomNum = Math.floor(Math.random() * complementBank.length);
-		return complementBank[randomNum];
-	}
-	$( document ).ready(function() {
-		$( "#mainSection" ).fadeIn(2000);
-	});	
-	$( document ).ready(function() {
-		var complement = randomComplement();
-		$( "#footerFloatRight" ).html(complement);
-		$( "#footerIndex" ).fadeIn(2000);
-	});	
-</script>
+	<script type="text/javascript">
+		//Feel free to add more complements
+		var complementBank = ["I like your shoes","I love your outfit","Your hair looks great today","You smell wonderful","You are an inspiration","You look like a winner","You're just the best","You're so clever","Seriously, you're awesome","You are truly an impressive person","Keep up the good work, champ","You should be proud of yourself","Tone it down some, you're making everyone else look bad","Nice butt"];
+		//Returns a random complement from complementBank[]
+		function randomComplement() {
+			var randomNum = Math.floor(Math.random() * complementBank.length);
+			return complementBank[randomNum];
+		}
+		$( document ).ready(function() {
+			var complement = randomComplement();
+			$( "#footerFloatRight" ).html(complement);
+		});	
+	</script>
 
 </body>
 </html>

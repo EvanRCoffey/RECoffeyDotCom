@@ -2,414 +2,428 @@
 <html>
 <head>
 	<title>Evan's website - Blog Entry</title>
-	<!--Google Font-->
-	<link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
-	<!--CSS Reset file-->
-	<link rel="stylesheet" type="text/css" href="../../assets/css/reset.css">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--External CSS file-->
 	<link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
-	<!--jQuery link-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
-<body>
+<body class="subpage">
 
-<!--Header, with links to bio, blog, portfolio, and contact-->
-<div id="header">
-	<a href="../../contact.html" class="navBarLinkRight" >Contact</a>
-	<a href="../../portfolio.html" class="navBarLinkRight">Portfolio</a>
-	<a href="../../blogCurrentEntry.html" class="navBarLinkRight" style="color:khaki">Blog</a>
-	<a href="../../bio.html" class="navBarLinkRight">Bio</a>
-</div>
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<nav id="nav">
+				<a href="../../bio.html">Bio</a>
+				<a href="../../blogCurrentEntry.html" style="color: khaki">Blog</a>
+				<a href="../../portfolio.html">Portfolio</a>
+				<a href="../../contact.html">Contact</a>
+			</nav>
+			<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+		</div>
+	</header>
 
-<!--Main page content-->
-<div id="mainSection">
+	<!-- Three -->
+	<section id="three" class="wrapper">
+		<div class="inner">
+			<!--Main page content-->
+			<div id="mainSection">
 
-<div id="blogLinks">
-	<a href="../Entry8/blogEntry.html" class="normalLink">Previous Entry</a>
-	<a href="../../blogList.html" class="normalLink">Blog List</a>
-	<a href="../Entry10/blogEntry.html" class="normalLink">Next Entry</a>
-</div>
+			<div id="blogLinks">
+				<a href="../Entry8/blogEntry.html" class="normalLink">Previous Entry</a>
+				<a href="../../blogList.html" class="normalLink">Blog List</a>
+				<a href="../Entry10/blogEntry.html" class="normalLink">Next Entry</a>
+			</div>
 
-<div id="blogEntryHeader">
-	July 27th, 2013 - More on the Military + Data Types and Arrays
-</div>
+			<div id="blogEntryHeader">
+				July 27th, 2013 - More on the Military + Data Types and Arrays
+			</div>
 
-<div class="separator" style="clear: both; text-align: center;">
-<a href="http://4.bp.blogspot.com/-n0Ue9g93fJI/UcyquNrsQyI/AAAAAAAAAEQ/ANzYCHtvlQ0/s1600/52555059.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="226" src="https://4.bp.blogspot.com/-n0Ue9g93fJI/UcyquNrsQyI/AAAAAAAAAEQ/ANzYCHtvlQ0/s320/52555059.png" width="320" /></a></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center;">
-<i>Based on the information you provided to us, you may qualify for an exciting career as an Air Force officer! - part of an email I received from www.AirForce.com</i></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center;">
-<i><br /></i></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-You’ll notice that it’s been quite some time since my last update.&nbsp; The reason for this is that, for a period of
-about two weeks, I spent most of my free time exploring my options in the
-United States Air Force instead of working on C++.<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-The first place I looked was the official Air Force website.&nbsp; Unsurprisingly, the picture that it painted
-was entirely positive; I felt like I was a shoo-in and that I would get exactly
-what I wanted, as long as I could achieve a high enough score on the ASVAB.&nbsp; I’m sorry to report that the days that
-followed transformed that perception into quite a pessimistic one.<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-The primary reason I was excited about joining the Air Force was
-because I thought I could enter as an officer, due to the fact that I already
-have a bachelor’s degree.&nbsp; This would significantly
-increase the size of my paycheck, and it would open up several job opportunities
-that aren’t offered to enlisted members.&nbsp;
-I had a good GPA, I have good credit, and I don’t have a criminal
-record.&nbsp; So, I called the local OTS
-(officer training school) recruiter.<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-And I called again.<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-And again.<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-And again.<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-Sadly, it has been about three weeks since the first time I attempted
-to contact the OTS recruiter, and I still haven’t heard back from her.&nbsp; I’ve also gone by her office and emailed her
-several times.&nbsp; Still, nothing.<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-I understand that she is probably inundated with requests like mine, as
-she is the only OTS recruiter in an area that suffers from high unemployment
-rates and overpopulation.&nbsp; However, this
-doesn’t change the fact that my original excitement is all but gone, as I feel
-like I would be walking up an endless staircase if I continued to pursue this
-avenue.&nbsp; In addition to this, further
-research online has shown that becoming an officer right off the bat is
-actually quite difficult, and that the positions usually only go to people with
-technical degrees (mine is in music).<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-I haven’t given up hope altogether.&nbsp;
-I have my ASVAB study guide, and I’m even attempting to get together
-with an enlisted recruiter to schedule a time to take it.&nbsp; However, even those recruiters have proven
-difficult to get in touch with.&nbsp; I’ve
-left two voicemails so far, in addition to applying through the air force
-website.&nbsp; From this point forward, I’ll
-be refocusing my energy on C++ until THEY contact ME.<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="http://3.bp.blogspot.com/-4JMV-apkZsQ/UcyrLkfT3DI/AAAAAAAAAEY/Isj1nUmvMc0/s400/phone_dangling4.jpeg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="https://3.bp.blogspot.com/-4JMV-apkZsQ/UcyrLkfT3DI/AAAAAAAAAEY/Isj1nUmvMc0/s320/phone_dangling4.jpeg" width="234" /></a></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-***<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-So, C++ then!<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-Since my last entry, I learned a bit about data types and arrays, among
-other things.&nbsp; Allow me to briefly
-explain what each of those are:<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
--Data types-<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-One of the things that sets C++ apart from other programming languages
-is the control it allows over your computer’s resources (namely, memory).&nbsp; Data types are the most basic way of
-exercising this control.<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-Say, for example, you want to create a program that adds and subtracts numbers.&nbsp; With another
-programming language, numbers might automatically fall into a category of, say,
-“any number between -1 billion and +1 billion”.&nbsp;
-This means, any time you use a number, your computer is processing that
-number out of 2 billion total possible numbers.&nbsp;
-With a simple program, this
-would not matter much.&nbsp; However, when programs become more convoluted and involve the computation of more and
-more data, this can become taxing on your system’s memory.<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-With C++, you have the option of choosing the data type appropriate to
-the task you’re trying to accomplish.&nbsp;
-Thus, instead of choosing a number between -1 billion and +1 billion,
-you could choose a number between something like -1000 and +1000, if it better suited your needs. &nbsp;Of course, if you expected to be working with larger numbers, you could always do so by choosing a data type with a wider range. &nbsp;It all just depends on the needs of each individual program.<br />
-<br />
-This flexibility allows your C++ programs to execute more
-efficiently, albeit sometimes taking a bit longer to code.<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
--Arrays-<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-Before I learned about arrays, the only way I knew to initialize a
-variable (i.e., a unit that stores a value for computational use) was one at a
-time.&nbsp; This means, if you had a
-calculation that required several different variables, you had to come up with
-a unique name for each.<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-With arrays, you simply come up with one name, and create an index
-within that name to store all of the variables within.&nbsp; Thus, instead of this:<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
--Apples<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
--Oranges<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
--Bananas<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
--Grapes<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
--Melons<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
--Pears<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-You can just write this:<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
--Fruit[6]<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-As with data types, this is a tool that, while not always necessary
-to code a program, will eventually come in handy when dealing with large,
-complicated projects.&nbsp; In fact, this
-leads me to another point about programming that I’m learning, which is that
-programming *well* is just as important as being able to program, at all.<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-For any given task, there will be semi-infinite ways of writing code to
-accomplish it.&nbsp; However, some ways are
-better than others, and it’s the job of a skilled programmer to write code as
-efficiently and cleanly as possible. <br />
-<br />
-An analogy: &nbsp;You
-can write 2+2=4, or you can write 1+1+1+1=16/4.&nbsp;
-Both equations effectively state the same thing, but one is easier
-to read (and compute) than the other. &nbsp;This idea is just as important in programming as it is in mathematics.<br />
-<br />
-We
-are writing in the language of machines, but we must remember that our work is being read by humans, as well.&nbsp; And
-humans have feelings, too!<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-For fun, here is a simple program I wrote to calculate BMI, as instructed at the end of chapter 3 of C++ Primer Plus.</div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-_______________</div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-#include
-&lt;iostream&gt;<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-int feet,
-inches, weight, height;<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-float BMI,
-meters, kilograms;<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-int main()<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-{<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; using namespace std;<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cout&lt;&lt;"How many feet
-tall are you?";<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cin&gt;&gt;feet;<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cout&lt;&lt;"How many inches
-tall are you?";<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cin&gt;&gt;inches;<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cout&lt;&lt;"What is your
-weight, in pounds?";<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cin&gt;&gt;weight;<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; const int fac1=12;<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; const float fac2=0.0254;<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; const float fac3=2.2;<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; height=(feet*fac1)+inches;<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; meters=height*fac2;<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; kilograms=weight/fac3;<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BMI=kilograms/(meters*meters);<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cout&lt;&lt;"Your BMI is
-"&lt;&lt;BMI&lt;&lt;".&nbsp;
-Booya!";<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cin.get();<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cin.get();<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return 0;<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-</div>
-<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
-}<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-______________</div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-The program asks for your height and your weight, and then it calculates your BMI.</div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-***<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-I came across an article online titled “How to Become a Hacker.” &nbsp;Not only was the article itself a joy to
-read, but it has links to many different resources, many of which seem quite
-useful. &nbsp;It has since become my go-to guide for “stuff I should read at some point.” &nbsp;Here’s a link:<br />
-<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<a href="http://www.catb.org/esr/faqs/hacker-howto.html#closed_lang" class="normalLink">How to Become a Hacker</a><o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-In addition to all of the helpful suggestions, the article touched on
-the culture of the technologically-savvy, and it was yet another in a string of
-sources that have reaffirmed my decision to follow this as a career path.&nbsp; I am definitely in good company, and it’s
-nice to constantly be reminded of that.<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-(A note about the term “hacker”: media and pop culture have made this into
-a naughty word, using it mostly to describe illegal activity such as retrieving
-passwords, accessing private databases, and so on.&nbsp; However, according to the article, real
-hackers are benevolent and generous, always working together to improve the
-technological landscape.&nbsp; The
-evildoers?&nbsp; They are known as “crackers.”&nbsp; I want nothing to do with this group.)<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="http://3.bp.blogspot.com/-H1Vjtl2fbVE/UcyryuOhmZI/AAAAAAAAAEg/dUIAdpGtOnA/s473/aaron-bacall-a-hacker-broke-into-our-computer-system-and-in-a-random-act-of-kindness--cartoon.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="https://3.bp.blogspot.com/-H1Vjtl2fbVE/UcyryuOhmZI/AAAAAAAAAEg/dUIAdpGtOnA/s320/aaron-bacall-a-hacker-broke-into-our-computer-system-and-in-a-random-act-of-kindness--cartoon.jpg" width="320" /></a></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-***<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-In my previous entry, I briefly touched on my plans for a Montessori
-website that I would be working on with my girlfriend.&nbsp; While these plans are still being developed,
-I’ve also decided that it would be wise for me to begin working on a homepage
-of my own, specifically focused on my work with computers.&nbsp; I don’t have any plans to begin this in the immediate future, as
-learning C++ is more of a priority, but I definitely want to start dabbling in
-web design as soon as it’s practical to do so.<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-…and aMaCaDaD is available as a domain name!<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-***</div>
-<br />
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-No perceivable vacations/plans/bumps in the road are in my near future,
-so I’m hoping to gain some momentum with my studies.&nbsp; Here’s hoping the next entry won’t take as
-long as this one did!<o:p></o:p></div>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-<br /></div>
-<div style="background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; margin: 0px; outline: none; padding: 0px; text-align: center;"></div>
-<div style="text-align: center;">
-<b>Current workload:</b></div>
-<div style="text-align: center;">
-<b><br /></b></div>
+			<div class="separator" style="clear: both; text-align: center;">
+			<a href="http://4.bp.blogspot.com/-n0Ue9g93fJI/UcyquNrsQyI/AAAAAAAAAEQ/ANzYCHtvlQ0/s1600/52555059.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="226" src="https://4.bp.blogspot.com/-n0Ue9g93fJI/UcyquNrsQyI/AAAAAAAAAEQ/ANzYCHtvlQ0/s320/52555059.png" width="320" /></a></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center;">
+			<i>Based on the information you provided to us, you may qualify for an exciting career as an Air Force officer! - part of an email I received from www.AirForce.com</i></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center;">
+			<i><br /></i></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			You’ll notice that it’s been quite some time since my last update.&nbsp; The reason for this is that, for a period of
+			about two weeks, I spent most of my free time exploring my options in the
+			United States Air Force instead of working on C++.<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			The first place I looked was the official Air Force website.&nbsp; Unsurprisingly, the picture that it painted
+			was entirely positive; I felt like I was a shoo-in and that I would get exactly
+			what I wanted, as long as I could achieve a high enough score on the ASVAB.&nbsp; I’m sorry to report that the days that
+			followed transformed that perception into quite a pessimistic one.<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			The primary reason I was excited about joining the Air Force was
+			because I thought I could enter as an officer, due to the fact that I already
+			have a bachelor’s degree.&nbsp; This would significantly
+			increase the size of my paycheck, and it would open up several job opportunities
+			that aren’t offered to enlisted members.&nbsp;
+			I had a good GPA, I have good credit, and I don’t have a criminal
+			record.&nbsp; So, I called the local OTS
+			(officer training school) recruiter.<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			And I called again.<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			And again.<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			And again.<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			Sadly, it has been about three weeks since the first time I attempted
+			to contact the OTS recruiter, and I still haven’t heard back from her.&nbsp; I’ve also gone by her office and emailed her
+			several times.&nbsp; Still, nothing.<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			I understand that she is probably inundated with requests like mine, as
+			she is the only OTS recruiter in an area that suffers from high unemployment
+			rates and overpopulation.&nbsp; However, this
+			doesn’t change the fact that my original excitement is all but gone, as I feel
+			like I would be walking up an endless staircase if I continued to pursue this
+			avenue.&nbsp; In addition to this, further
+			research online has shown that becoming an officer right off the bat is
+			actually quite difficult, and that the positions usually only go to people with
+			technical degrees (mine is in music).<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			I haven’t given up hope altogether.&nbsp;
+			I have my ASVAB study guide, and I’m even attempting to get together
+			with an enlisted recruiter to schedule a time to take it.&nbsp; However, even those recruiters have proven
+			difficult to get in touch with.&nbsp; I’ve
+			left two voicemails so far, in addition to applying through the air force
+			website.&nbsp; From this point forward, I’ll
+			be refocusing my energy on C++ until THEY contact ME.<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="separator" style="clear: both; text-align: center;">
+			<a href="http://3.bp.blogspot.com/-4JMV-apkZsQ/UcyrLkfT3DI/AAAAAAAAAEY/Isj1nUmvMc0/s400/phone_dangling4.jpeg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="https://3.bp.blogspot.com/-4JMV-apkZsQ/UcyrLkfT3DI/AAAAAAAAAEY/Isj1nUmvMc0/s320/phone_dangling4.jpeg" width="234" /></a></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			***<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			So, C++ then!<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			Since my last entry, I learned a bit about data types and arrays, among
+			other things.&nbsp; Allow me to briefly
+			explain what each of those are:<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			-Data types-<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			One of the things that sets C++ apart from other programming languages
+			is the control it allows over your computer’s resources (namely, memory).&nbsp; Data types are the most basic way of
+			exercising this control.<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			Say, for example, you want to create a program that adds and subtracts numbers.&nbsp; With another
+			programming language, numbers might automatically fall into a category of, say,
+			“any number between -1 billion and +1 billion”.&nbsp;
+			This means, any time you use a number, your computer is processing that
+			number out of 2 billion total possible numbers.&nbsp;
+			With a simple program, this
+			would not matter much.&nbsp; However, when programs become more convoluted and involve the computation of more and
+			more data, this can become taxing on your system’s memory.<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			With C++, you have the option of choosing the data type appropriate to
+			the task you’re trying to accomplish.&nbsp;
+			Thus, instead of choosing a number between -1 billion and +1 billion,
+			you could choose a number between something like -1000 and +1000, if it better suited your needs. &nbsp;Of course, if you expected to be working with larger numbers, you could always do so by choosing a data type with a wider range. &nbsp;It all just depends on the needs of each individual program.<br />
+			<br />
+			This flexibility allows your C++ programs to execute more
+			efficiently, albeit sometimes taking a bit longer to code.<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			-Arrays-<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			Before I learned about arrays, the only way I knew to initialize a
+			variable (i.e., a unit that stores a value for computational use) was one at a
+			time.&nbsp; This means, if you had a
+			calculation that required several different variables, you had to come up with
+			a unique name for each.<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			With arrays, you simply come up with one name, and create an index
+			within that name to store all of the variables within.&nbsp; Thus, instead of this:<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			-Apples<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			-Oranges<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			-Bananas<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			-Grapes<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			-Melons<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			-Pears<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			You can just write this:<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			-Fruit[6]<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			As with data types, this is a tool that, while not always necessary
+			to code a program, will eventually come in handy when dealing with large,
+			complicated projects.&nbsp; In fact, this
+			leads me to another point about programming that I’m learning, which is that
+			programming *well* is just as important as being able to program, at all.<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			For any given task, there will be semi-infinite ways of writing code to
+			accomplish it.&nbsp; However, some ways are
+			better than others, and it’s the job of a skilled programmer to write code as
+			efficiently and cleanly as possible. <br />
+			<br />
+			An analogy: &nbsp;You
+			can write 2+2=4, or you can write 1+1+1+1=16/4.&nbsp;
+			Both equations effectively state the same thing, but one is easier
+			to read (and compute) than the other. &nbsp;This idea is just as important in programming as it is in mathematics.<br />
+			<br />
+			We
+			are writing in the language of machines, but we must remember that our work is being read by humans, as well.&nbsp; And
+			humans have feelings, too!<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			For fun, here is a simple program I wrote to calculate BMI, as instructed at the end of chapter 3 of C++ Primer Plus.</div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			_______________</div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			#include
+			&lt;iostream&gt;<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			int feet,
+			inches, weight, height;<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			float BMI,
+			meters, kilograms;<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			int main()<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			{<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; using namespace std;<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cout&lt;&lt;"How many feet
+			tall are you?";<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cin&gt;&gt;feet;<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cout&lt;&lt;"How many inches
+			tall are you?";<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cin&gt;&gt;inches;<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cout&lt;&lt;"What is your
+			weight, in pounds?";<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cin&gt;&gt;weight;<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; const int fac1=12;<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; const float fac2=0.0254;<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; const float fac3=2.2;<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; height=(feet*fac1)+inches;<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; meters=height*fac2;<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; kilograms=weight/fac3;<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BMI=kilograms/(meters*meters);<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cout&lt;&lt;"Your BMI is
+			"&lt;&lt;BMI&lt;&lt;".&nbsp;
+			Booya!";<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cin.get();<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cin.get();<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return 0;<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			</div>
+			<div class="MsoNormal" style="margin-bottom: .0001pt; margin-bottom: 0in;">
+			}<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			______________</div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			The program asks for your height and your weight, and then it calculates your BMI.</div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			***<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			I came across an article online titled “How to Become a Hacker.” &nbsp;Not only was the article itself a joy to
+			read, but it has links to many different resources, many of which seem quite
+			useful. &nbsp;It has since become my go-to guide for “stuff I should read at some point.” &nbsp;Here’s a link:<br />
+			<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<a href="http://www.catb.org/esr/faqs/hacker-howto.html#closed_lang" class="normalLink">How to Become a Hacker</a><o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			In addition to all of the helpful suggestions, the article touched on
+			the culture of the technologically-savvy, and it was yet another in a string of
+			sources that have reaffirmed my decision to follow this as a career path.&nbsp; I am definitely in good company, and it’s
+			nice to constantly be reminded of that.<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			(A note about the term “hacker”: media and pop culture have made this into
+			a naughty word, using it mostly to describe illegal activity such as retrieving
+			passwords, accessing private databases, and so on.&nbsp; However, according to the article, real
+			hackers are benevolent and generous, always working together to improve the
+			technological landscape.&nbsp; The
+			evildoers?&nbsp; They are known as “crackers.”&nbsp; I want nothing to do with this group.)<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="separator" style="clear: both; text-align: center;">
+			<a href="http://3.bp.blogspot.com/-H1Vjtl2fbVE/UcyryuOhmZI/AAAAAAAAAEg/dUIAdpGtOnA/s473/aaron-bacall-a-hacker-broke-into-our-computer-system-and-in-a-random-act-of-kindness--cartoon.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="https://3.bp.blogspot.com/-H1Vjtl2fbVE/UcyryuOhmZI/AAAAAAAAAEg/dUIAdpGtOnA/s320/aaron-bacall-a-hacker-broke-into-our-computer-system-and-in-a-random-act-of-kindness--cartoon.jpg" width="320" /></a></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			***<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			In my previous entry, I briefly touched on my plans for a Montessori
+			website that I would be working on with my girlfriend.&nbsp; While these plans are still being developed,
+			I’ve also decided that it would be wise for me to begin working on a homepage
+			of my own, specifically focused on my work with computers.&nbsp; I don’t have any plans to begin this in the immediate future, as
+			learning C++ is more of a priority, but I definitely want to start dabbling in
+			web design as soon as it’s practical to do so.<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			…and aMaCaDaD is available as a domain name!<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			***</div>
+			<br />
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			No perceivable vacations/plans/bumps in the road are in my near future,
+			so I’m hoping to gain some momentum with my studies.&nbsp; Here’s hoping the next entry won’t take as
+			long as this one did!<o:p></o:p></div>
+			<div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+			<br /></div>
+			<div style="background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; margin: 0px; outline: none; padding: 0px; text-align: center;"></div>
+			<div style="text-align: center;">
+			<b>Current workload:</b></div>
+			<div style="text-align: center;">
+			<b><br /></b></div>
 
-<div style="font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; margin: 0px; outline: none; padding: 0px; text-align: center;"></div>
-<div style="text-align: center;">
-<b>1) C++ Primer Plus - &nbsp;3 of 18 chapters completed</b></div>
-<div style="font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; margin: 0px; outline: none; padding: 0px; text-align: center;">
-<b><br /></b></div>
-<div style="font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; margin: 0px; outline: none; padding: 0px; text-align: right;"></div>
-<div style="text-align: right;">
-<span style="font-size: xx-small;"><i>Still dreaming...</i></span></div>
+			<div style="font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; margin: 0px; outline: none; padding: 0px; text-align: center;"></div>
+			<div style="text-align: center;">
+			<b>1) C++ Primer Plus - &nbsp;3 of 18 chapters completed</b></div>
+			<div style="font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; margin: 0px; outline: none; padding: 0px; text-align: center;">
+			<b><br /></b></div>
+			<div style="font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; margin: 0px; outline: none; padding: 0px; text-align: right;"></div>
+			<div style="text-align: right;">
+			<span style="font-size: xx-small;"><i>Still dreaming...</i></span></div>
 
-<div id="blogLinks">
-	<a href="../Entry8/blogEntry.html" class="normalLink">Previous Entry</a>
-	<a href="../../blogList.html" class="normalLink">Blog List</a>
-	<a href="../Entry10/blogEntry.html" class="normalLink">Next Entry</a>
-</div>
+			<div id="blogLinks">
+				<a href="../Entry8/blogEntry.html" class="normalLink">Previous Entry</a>
+				<a href="../../blogList.html" class="normalLink">Blog List</a>
+				<a href="../Entry10/blogEntry.html" class="normalLink">Next Entry</a>
+			</div>
 
-</div>
+			</div>
+		</div>
+	</section>
 
-<!--Footer, with current page and random complement-->
-<div id="footer" style="display: none">
-	<div id="footerFloatRight"></div>
-</div>
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="flex">
+				<!--Footer, with random complement-->
+				<div id="footerIndex">
+					<div id="footerFloatRight"></div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
-<!--Code for delayed fading in of page material-->
-<script type="text/javascript">
-	//Feel free to add more complements
-	var complementBank = ["I like your shoes","I love your outfit","Your hair looks great today","You smell wonderful","You are an inspiration","You look like a winner","You're just the best","You're so clever","Seriously, you're awesome","You are truly an impressive person","Keep up the good work, champ","You should be proud of yourself","Tone it down some, you're making everyone else look bad","Nice butt"];
-	//Returns a random complement from complementBank[]
-	function randomComplement() {
-		var randomNum = Math.floor(Math.random() * complementBank.length);
-		return complementBank[randomNum];
-	}
-	$( document ).ready(function() {
-		$( "#mainSection" ).fadeIn(2000);
-	});
-	$( document ).ready(function() {
-		var complement = randomComplement();
-		$( "#footerFloatRight" ).html(complement);
-		$( "#footer" ).fadeIn(2000);
-	});	
-</script>
+	<!-- Scripts -->
+	<script src="../../assets/js/jquery.min.js"></script>
+	<script src="../../assets/js/skel.min.js"></script>
+	<script src="../../assets/js/util.js"></script>
+	<script src="../../assets/js/main.js"></script>
+
+	<script type="text/javascript">
+		//Feel free to add more complements
+		var complementBank = ["I like your shoes","I love your outfit","Your hair looks great today","You smell wonderful","You are an inspiration","You look like a winner","You're just the best","You're so clever","Seriously, you're awesome","You are truly an impressive person","Keep up the good work, champ","You should be proud of yourself","Tone it down some, you're making everyone else look bad","Nice butt"];
+		//Returns a random complement from complementBank[]
+		function randomComplement() {
+			var randomNum = Math.floor(Math.random() * complementBank.length);
+			return complementBank[randomNum];
+		}
+		$( document ).ready(function() {
+			var complement = randomComplement();
+			$( "#footerFloatRight" ).html(complement);
+		});	
+	</script>
 
 </body>
 </html>
+

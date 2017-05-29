@@ -2,74 +2,88 @@
 <html>
 <head>
 	<title>Evan's website - Blog Entry</title>
-	<!--Google Font-->
-	<link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
-	<!--CSS Reset file-->
-	<link rel="stylesheet" type="text/css" href="../../assets/css/reset.css">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--External CSS file-->
 	<link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
-	<!--jQuery link-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
-<body>
+<body class="subpage">
 
-<!--Header, with links to bio, blog, portfolio, and contact-->
-<div id="header">
-	<a href="../../contact.html" class="navBarLinkRight" >Contact</a>
-	<a href="../../portfolio.html" class="navBarLinkRight">Portfolio</a>
-	<a href="../../blogCurrentEntry.html" class="navBarLinkRight" style="color:khaki">Blog</a>
-	<a href="../../bio.html" class="navBarLinkRight">Bio</a>
-</div>
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<nav id="nav">
+				<a href="../../bio.html">Bio</a>
+				<a href="../../blogCurrentEntry.html" style="color: khaki">Blog</a>
+				<a href="../../portfolio.html">Portfolio</a>
+				<a href="../../contact.html">Contact</a>
+			</nav>
+			<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+		</div>
+	</header>
 
-<!--Main page content-->
-<div id="mainSection">
+	<!-- Three -->
+	<section id="three" class="wrapper">
+		<div class="inner">
+			<!--Main page content-->
+			<div id="mainSection">
 
-<div id="blogLinks">
-	<a href="../Entry10/blogEntry.html" class="normalLink">Previous Entry</a>
-	<a href="../../blogList.html" class="normalLink">Blog List</a>
-	<a href="../Entry12/blogEntry.html" class="normalLink">Next Entry</a>
-</div>
+			<div id="blogLinks">
+				<a href="../Entry10/blogEntry.html" class="normalLink">Previous Entry</a>
+				<a href="../../blogList.html" class="normalLink">Blog List</a>
+				<a href="../Entry12/blogEntry.html" class="normalLink">Next Entry</a>
+			</div>
 
-<div id="blogEntryHeader">
-	October 18th, 2014 - It's Great For a Snack, It Fits On Your Back, It's Vlog, Vlog, Vlog!
-</div>
+			<div id="blogEntryHeader">
+				October 18th, 2014 - It's Great For a Snack, It Fits On Your Back, It's Vlog, Vlog, Vlog!
+			</div>
 
-<p>
-This particular blog entry was actually a VLOG entry, and I was unable to port the video from there to here.  In it, I described my move to Austin, spoke on my engagement to Lesley, and detailed the first few weeks of life in TX, where I was working at Westwood Country Club and Fleming's Prime Steakhouse and Wine Bar and thinking about how to start my formal education.
-</p>
+			<p>
+			This particular blog entry was actually a VLOG entry, and I was unable to port the video from there to here.  In it, I described my move to Austin, spoke on my engagement to Lesley, and detailed the first few weeks of life in TX, where I was working at Westwood Country Club and Fleming's Prime Steakhouse and Wine Bar and thinking about how to start my formal education.
+			</p>
 
-<div id="blogLinks">
-	<a href="../Entry10/blogEntry.html" class="normalLink">Previous Entry</a>
-	<a href="../../blogList.html" class="normalLink">Blog List</a>
-	<a href="../Entry12/blogEntry.html" class="normalLink">Next Entry</a>
-</div>
+			<div id="blogLinks">
+				<a href="../Entry10/blogEntry.html" class="normalLink">Previous Entry</a>
+				<a href="../../blogList.html" class="normalLink">Blog List</a>
+				<a href="../Entry12/blogEntry.html" class="normalLink">Next Entry</a>
+			</div>
 
-</div>
+			</div>
+		</div>
+	</section>
 
-<!--Footer, with current page and random complement-->
-<div id="footer" style="display: none">
-	<div id="footerFloatRight"></div>
-</div>
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="flex">
+				<!--Footer, with random complement-->
+				<div id="footerIndex">
+					<div id="footerFloatRight"></div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
-<!--Code for delayed fading in of page material-->
-<script type="text/javascript">
-	//Feel free to add more complements
-	var complementBank = ["I like your shoes","I love your outfit","Your hair looks great today","You smell wonderful","You are an inspiration","You look like a winner","You're just the best","You're so clever","Seriously, you're awesome","You are truly an impressive person","Keep up the good work, champ","You should be proud of yourself","Tone it down some, you're making everyone else look bad","Nice butt"];
-	//Returns a random complement from complementBank[]
-	function randomComplement() {
-		var randomNum = Math.floor(Math.random() * complementBank.length);
-		return complementBank[randomNum];
-	}
-	$( document ).ready(function() {
-		$( "#mainSection" ).fadeIn(2000);
-	});
-	$( document ).ready(function() {
-		var complement = randomComplement();
-		$( "#footerFloatRight" ).html(complement);
-		$( "#footer" ).fadeIn(2000);
-	});	
-</script>
+	<!-- Scripts -->
+	<script src="../../assets/js/jquery.min.js"></script>
+	<script src="../../assets/js/skel.min.js"></script>
+	<script src="../../assets/js/util.js"></script>
+	<script src="../../assets/js/main.js"></script>
+
+	<script type="text/javascript">
+		//Feel free to add more complements
+		var complementBank = ["I like your shoes","I love your outfit","Your hair looks great today","You smell wonderful","You are an inspiration","You look like a winner","You're just the best","You're so clever","Seriously, you're awesome","You are truly an impressive person","Keep up the good work, champ","You should be proud of yourself","Tone it down some, you're making everyone else look bad","Nice butt"];
+		//Returns a random complement from complementBank[]
+		function randomComplement() {
+			var randomNum = Math.floor(Math.random() * complementBank.length);
+			return complementBank[randomNum];
+		}
+		$( document ).ready(function() {
+			var complement = randomComplement();
+			$( "#footerFloatRight" ).html(complement);
+		});	
+	</script>
 
 </body>
 </html>
+

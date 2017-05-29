@@ -2,83 +2,98 @@
 <html>
 <head>
 	<title>Evan's website - Blog List</title>
-	<!--Google Font-->
-	<link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
-	<!--CSS Reset file-->
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--External CSS file-->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<!--jQuery link-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
-<body>
+<body class="subpage">
 
-<!--Header, with links to bio, blog, portfolio, and contact-->
-<div id="header">
-	<a href="contact.html" class="navBarLinkRight" >Contact</a>
-	<a href="portfolio.html" class="navBarLinkRight">Portfolio</a>
-	<a href="blogCurrentEntry.html" class="navBarLinkRight" style="color:khaki">Blog</a>
-	<a href="bio.html" class="navBarLinkRight">Bio</a>
-</div>
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<nav id="nav">
+				<a href="bio.html">Bio</a>
+				<a href="blogCurrentEntry.html" style="color: khaki">Blog</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+			<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+		</div>
+	</header>
 
-<!--Main page content-->
-<div id="mainSection">
-	<div style="text-align: center;">
-	<h1>All blog entries</h1><br /><hr /><br />
-	<a href="/blog/Entry28/blogEntry.html" class="normalLink">Entry 28 - 5/1/2017</a><br /><br />
-	<a href="/blog/Entry27/blogEntry.html" class="normalLink">Entry 27 - 3/12/2017</a><br /><br />
-	<a href="/blog/Entry26/blogEntry.html" class="normalLink">Entry 26 - 1/23/2017</a><br /><br />
-	<a href="/blog/Entry25/blogEntry.html" class="normalLink">Entry 25 - 11/30/2016</a><br /><br />
-	<a href="/blog/Entry24/blogEntry.html" class="normalLink">Entry 24 - 11/1/2016</a><br /><br />
-	<a href="/blog/Entry23/blogEntry.html" class="normalLink">Entry 23 - 10/1/2016</a><br /><br />
-	<a href="/blog/Entry22/blogEntry.html" class="normalLink">Entry 22 - 8/17/2016</a><br /><br />
-	<a href="/blog/Entry21/blogEntry.html" class="normalLink">Entry 21 - 6/9/2016</a><br /><br />
-	<a href="/blog/Entry20/blogEntry.html" class="normalLink">Entry 20 - 1/8/2016</a><br /><br />
-	<a href="/blog/Entry19/blogEntry.html" class="normalLink">Entry 19 - 11/21/2015</a><br /><br />
-	<a href="/blog/Entry18/blogEntry.html" class="normalLink">Entry 18 - 8/6/2015</a><br /><br />
-	<a href="/blog/Entry17/blogEntry.html" class="normalLink">Entry 17 - 5/28/2015</a><br /><br />
-	<a href="/blog/Entry16/blogEntry.html" class="normalLink">Entry 16 - 3/9/2015</a><br /><br />
-	<a href="/blog/Entry15/blogEntry.html" class="normalLink">Entry 15 - 2/2/2015</a><br /><br />
-	<a href="/blog/Entry14/blogEntry.html" class="normalLink">Entry 14 - 11/18/2014</a><br /><br />
-	<a href="/blog/Entry13/blogEntry.html" class="normalLink">Entry 13 - 10/20/2014</a><br /><br />
-	<a href="/blog/Entry12/blogEntry.html" class="normalLink">Entry 12 - 10/10/2014</a><br /><br />
-	<a href="/blog/Entry11VLOG/blogEntry.html" class="normalLink">Entry 11 - 8/18/2014</a><br /><br />
-	<a href="/blog/Entry10/blogEntry.html" class="normalLink">Entry 10 - 2/19/2014</a><br /><br />
-	<a href="/blog/Entry9/blogEntry.html" class="normalLink">Entry 9 - 6/27/2013</a><br /><br />
-	<a href="/blog/Entry8/blogEntry.html" class="normalLink">Entry 8 - 5/28/2013</a><br /><br />
-	<a href="/blog/Entry7/blogEntry.html" class="normalLink">Entry 7 - 5/10/2013</a><br /><br />
-	<a href="/blog/Entry6/blogEntry.html" class="normalLink">Entry 6 - 4/21/2013</a><br /><br />
-	<a href="/blog/Entry5/blogEntry.html" class="normalLink">Entry 5 - 4/8/2013</a><br /><br />
-	<a href="/blog/Entry4/blogEntry.html" class="normalLink">Entry 4 - 3/28/2013</a><br /><br />
-	<a href="/blog/Entry3/blogEntry.html" class="normalLink">Entry 3 - 3/19/2013</a><br /><br />
-	<a href="/blog/Entry2/blogEntry.html" class="normalLink">Entry 2 - 3/13/2013</a><br /><br />
-	<a href="/blog/Entry1/blogEntry.html" class="normalLink">Entry 1 - 3/12/2013</a><br /><br /><hr />
+	<!--Main page content-->
+	<div id="mainSection">
+		<div style="text-align: center;">
+			<br>
+			<a href="./blog/Entry29/blogEntry.html" class="normalLink">#29 - 5/10/2017</a><br /><br />
+			<a href="./blog/Entry28/blogEntry.html" class="normalLink">#28 - 5/1/2017</a><br /><br />
+			<a href="./blog/Entry27/blogEntry.html" class="normalLink">#27 - 3/12/2017</a><br /><br />
+			<a href="./blog/Entry26/blogEntry.html" class="normalLink">#26 - 1/23/2017</a><br /><br />
+			<a href="./blog/Entry25/blogEntry.html" class="normalLink">#25 - 11/30/2016</a><br /><br />
+			<a href="./blog/Entry24/blogEntry.html" class="normalLink">#24 - 11/1/2016</a><br /><br />
+			<a href="./blog/Entry23/blogEntry.html" class="normalLink">#23 - 10/1/2016</a><br /><br />
+			<a href="./blog/Entry22/blogEntry.html" class="normalLink">#22 - 8/17/2016</a><br /><br />
+			<a href="./blog/Entry21/blogEntry.html" class="normalLink">#21 - 6/9/2016</a><br /><br />
+			<a href="./blog/Entry20/blogEntry.html" class="normalLink">#20 - 1/8/2016</a><br /><br />
+			<a href="./blog/Entry19/blogEntry.html" class="normalLink">#19 - 11/21/2015</a><br /><br />
+			<a href="./blog/Entry18/blogEntry.html" class="normalLink">#18 - 8/6/2015</a><br /><br />
+			<a href="./blog/Entry17/blogEntry.html" class="normalLink">#17 - 5/28/2015</a><br /><br />
+			<a href="./blog/Entry16/blogEntry.html" class="normalLink">#16 - 3/9/2015</a><br /><br />
+			<a href="./blog/Entry15/blogEntry.html" class="normalLink">#15 - 2/2/2015</a><br /><br />
+			<a href="./blog/Entry14/blogEntry.html" class="normalLink">#14 - 11/18/2014</a><br /><br />
+			<a href="./blog/Entry13/blogEntry.html" class="normalLink">#13 - 10/20/2014</a><br /><br />
+			<a href="./blog/Entry12/blogEntry.html" class="normalLink">#12 - 10/10/2014</a><br /><br />
+			<a href="./blog/Entry11VLOG/blogEntry.html" class="normalLink">#11 - 8/18/2014</a><br /><br />
+			<a href="./blog/Entry10/blogEntry.html" class="normalLink">#10 - 2/19/2014</a><br /><br />
+			<a href="./blog/Entry9/blogEntry.html" class="normalLink">#9 - 6/27/2013</a><br /><br />
+			<a href="./blog/Entry8/blogEntry.html" class="normalLink">#8 - 5/28/2013</a><br /><br />
+			<a href="./blog/Entry7/blogEntry.html" class="normalLink">#7 - 5/10/2013</a><br /><br />
+			<a href="./blog/Entry6/blogEntry.html" class="normalLink">#6 - 4/21/2013</a><br /><br />
+			<a href="./blog/Entry5/blogEntry.html" class="normalLink">#5 - 4/8/2013</a><br /><br />
+			<a href="./blog/Entry4/blogEntry.html" class="normalLink">#4 - 3/28/2013</a><br /><br />
+			<a href="./blog/Entry3/blogEntry.html" class="normalLink">#3 - 3/19/2013</a><br /><br />
+			<a href="./blog/Entry2/blogEntry.html" class="normalLink">#2 - 3/13/2013</a><br /><br />
+			<a href="./blog/Entry1/blogEntry.html" class="normalLink">#1 - 3/12/2013</a><br /><br />
+		</div>
 	</div>
-</div>
 
-<!--Footer, with current page and random complement-->
-<div id="footer" style="display: none">
-	<div id="footerFloatRight"></div>
-</div>
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="flex">
+				<!--Footer, with random complement-->
+				<div id="footerIndex">
+					<div id="footerFloatRight"></div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
-<!--Code for delayed fading in of page material-->
-<script type="text/javascript">
-	//Feel free to add more complements
-	var complementBank = ["I like your shoes","I love your outfit","Your hair looks great today","You smell wonderful","You are an inspiration","You look like a winner","You're just the best","You're so clever","Seriously, you're awesome","You are truly an impressive person","Keep up the good work, champ","You should be proud of yourself","Tone it down some, you're making everyone else look bad","Nice butt"];
-	//Returns a random complement from complementBank[]
-	function randomComplement() {
-		var randomNum = Math.floor(Math.random() * complementBank.length);
-		return complementBank[randomNum];
-	}
-	$( document ).ready(function() {
-		$( "#mainSection" ).fadeIn(2000);
-	});
-	$( document ).ready(function() {
-		var complement = randomComplement();
-		$( "#footerFloatRight" ).html(complement);
-		$( "#footer" ).fadeIn(2000);
-	});	
-</script>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	<!--Code for delayed fading in of page material-->
+	<script type="text/javascript">
+		//Feel free to add more complements
+		var complementBank = ["I like your shoes","I love your outfit","Your hair looks great today","You smell wonderful","You are an inspiration","You look like a winner","You're just the best","You're so clever","Seriously, you're awesome","You are truly an impressive person","Keep up the good work, champ","You should be proud of yourself","Tone it down some, you're making everyone else look bad","Nice butt"];
+		//Returns a random complement from complementBank[]
+		function randomComplement() {
+			var randomNum = Math.floor(Math.random() * complementBank.length);
+			return complementBank[randomNum];
+		}
+		$( document ).ready(function() {
+			$( "#mainSection" ).fadeIn(2000);
+		});
+		$( document ).ready(function() {
+			var complement = randomComplement();
+			$( "#footerFloatRight" ).html(complement);
+			$( "#footer" ).fadeIn(2000);
+		});	
+	</script>
 
 </body>
 </html>
